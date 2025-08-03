@@ -126,10 +126,51 @@ Garantizar fiabilidad y mantenibilidad:
 
 Explorar la descentralización y contratos inteligentes:
 
-- Fundamentos de Ethereum: cuentas, transacciones y gas.  
-- Solidity básico: estructuras, eventos y funciones.  
-- Frameworks de desarrollo: Truffle, Hardhat y Web3.js.  
-- Despliegue en testnets y herramientas de auditoría.  
+### Fundamentos de Ethereum
+- Cuentas, transacciones y gas.  
+- Conceptos de blockchain y consenso.  
+- Wallets y manejo de claves públicas/privadas.  
+
+### Solidity Básico
+- Estructuras, eventos y funciones.  
+- Variables de estado y modificadores.  
+- Patrones de seguridad y mejores prácticas.  
+
+### Remix IDE: Tu Entorno de Desarrollo
+
+**1. Remix IDE Online**  
+La forma más común es usar la versión web oficial:
+- URL: https://remix.ethereum.org  
+- Acceso directo desde el navegador  
+- No requiere instalación  
+- Incluye todas las herramientas necesarias  
+
+**2. Remix Desktop**  
+Versión de escritorio para uso offline:
+- Descarga desde GitHub: https://github.com/ethereum/remix-desktop  
+- Funciona sin conexión a internet  
+- Mayor control sobre archivos locales  
+
+**3. Integración con VS Code**  
+Puedes trabajar con contratos Solidity en VS Code y luego importarlos a Remix.
+
+**4. Interacción Programática**  
+También es posible interactuar con Remix mediante:
+- Remix Plugin API: Para crear plugins personalizados  
+- Remix Libraries: Para integrar funcionalidades en aplicaciones  
+- Web3 Integration: Para desplegar y probar contratos  
+
+> ¿Qué tipo de interacción con Remix IDE te interesa más? ¿Quieres que configure un entorno de desarrollo completo para contratos inteligentes?
+
+### Frameworks de Desarrollo
+- Truffle Suite: Testing y migración de contratos.  
+- Hardhat: Entorno moderno con TypeScript.  
+- Web3.js y Ethers.js: Librerías para interactuar con la blockchain.  
+
+### Despliegue y Auditoría
+- Testnets: Goerli, Sepolia para pruebas.  
+- Herramientas de auditoría y análisis de seguridad.  
+- Gas optimization y mejores prácticas de despliegue.  
 
 ---
 
