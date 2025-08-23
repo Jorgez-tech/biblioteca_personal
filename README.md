@@ -7,16 +7,16 @@ Este repositorio funciona como un libro de consulta interactivo, donde cada cap�
 ## Tabla de Contenidos
 
 1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [☁️ Servicios en la Nube](#-2-servicios-en-la-nube)
-3. [🐳 Contenedores y Orquestación](#-3-contenedores-y-orquestación)
-4. [🗄️ Bases de Datos Relacionales](#-4-bases-de-datos-relacionales)
+2. [☁️ Principales Servicios en la Nube](#️-2-principales-servicios-en-la-nube)
+3. [📦 Contenedores y Orquestación](#-3-contenedores-y-orquestación)
+4. [�️ Bases de Datos Relacionales](#️-4-bases-de-datos-relacionales)
 5. [🔌 Desarrollo de APIs](#-5-desarrollo-de-apis)
 6. [🎨 Frontend Moderno](#-6-frontend-moderno)
-7. [🔗 Integración Full-Stack](#-7-integración-full-stack)
-8. [⚙️ DevOps y Flujo de Trabajo](#-8-devops-y-flujo-de-trabajo)
-9. [🧪 Pruebas y Calidad de Código](#-9-pruebas-y-calidad-de-código)  
-10. [🌐 Temas Avanzados: Web3 y Smart Contracts](#-10-temas-avanzados-web3-y-smart-contracts)  
-11. [🛠️ Herramientas de Desarrollo](#-11-herramientas-de-desarrollo)
+7. [� Integración Full-Stack](#-7-integración-full-stack)
+8. [⚙️ DevOps y Flujo de Trabajo](#️-8-devops-y-flujo-de-trabajo)
+9. [✅ Pruebas y Calidad de Código](#-9-pruebas-y-calidad-de-código)  
+10. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-10-temas-avanzados-web3-y-smart-contracts)  
+11. [🛠️ Herramientas para Desarrollar](#️-11-herramientas-para-desarrollar)
 
 ---
 
@@ -78,7 +78,7 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
 
 ---
 
-## ☁️ 2 Servicios en la Nube
+## ☁️ 2 Principales Servicios en la Nube
 
 Infraestructura escalable y servicios administrados para el desarrollo moderno. Aprovecha la computación en la nube para desplegar, escalar y mantener aplicaciones de forma eficiente y rentable.
 
@@ -86,7 +86,7 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 - **Amazon Web Services (AWS)**  
   EC2, S3, RDS, Lambda, ECS. Ecosistema completo para aplicaciones empresariales.  
-  → [AWS Documentation](https://docs.aws.amazon.com/)
+  → [Comparativa de proveedores cloud (Tridens)](https://tridens.io/) | [AWS Documentation](https://docs.aws.amazon.com/)
 
 - **Microsoft Azure**  
   App Service, Azure Functions, Cosmos DB, Container Instances. Integración con ecosistema Microsoft.  
@@ -96,9 +96,9 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
   Compute Engine, Cloud Functions, Firestore, Cloud Run. Enfoque en machine learning y analytics.  
   → [Google Cloud Docs](https://cloud.google.com/docs)
 
-- **Vercel & Netlify**  
-  Despliegue instantáneo para aplicaciones frontend, edge functions, CDN global.  
-  → [Vercel](https://vercel.com/docs) | [Netlify](https://docs.netlify.com/)
+- **Tipos de Servicios Cloud**  
+  IaaS (Infrastructure), PaaS (Platform), SaaS (Software). Modelos de servicio y ejemplos prácticos.  
+  → [Tipos de servicios: IaaS, PaaS, SaaS (Red Hat)](https://www.redhat.com/en/topics/cloud-computing/iaas-vs-paas-vs-saas)
 
 ### 🛠️ Herramientas y Frameworks
 
@@ -114,9 +114,9 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
   AWS Cognito, Firebase Auth, Auth0, Azure AD B2C.  
   → [Firebase Auth](https://firebase.google.com/docs/auth)
 
-- **APIs y Webhooks**  
-  API Gateway, CloudFlare Workers, Twilio, SendGrid para servicios de terceros.  
-  → [Twilio Docs](https://www.twilio.com/docs)
+- **Otros Proveedores Cloud**  
+  Oracle Cloud, IBM Cloud, DigitalOcean para casos específicos y startups.  
+  → [DigitalOcean](https://docs.digitalocean.com/)
 
 ### ⚙️ Buenas Prácticas y Aplicaciones
 
@@ -127,10 +127,10 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 ### 📚 Recursos Recomendados
 
+- [Comparativa de proveedores cloud (Tridens)](https://tridens.io/)
 - [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
 - [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
 - [Google Cloud Architecture Center](https://cloud.google.com/architecture)
-- [Cloud Native Computing Foundation](https://www.cncf.io/)
 
 ### 🧩 Integración con Otros Temas
 
@@ -141,23 +141,27 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 ---
 
-## 🐳 3 Contenedores y Orquestación
+## 📦 3 Contenedores y Orquestación
 
 Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consistente y escalable en cualquier entorno.
 
-### 🔍 Conceptos Fundamentales
+### � Conceptos Fundamentales
 
 - **Docker: Containerización**  
   Imágenes, contenedores, Dockerfile, registries, volúmenes y redes.  
-  → [Docker Documentation](https://docs.docker.com/)
+  → [Docker Documentation](https://docs.docker.com/) | [Introducción a Kubernetes y orquestación (IBM)](https://www.ibm.com/cloud/learn/kubernetes)
 
 - **Docker Compose: Orquestación Local**  
   Servicios multi-container, variables de entorno, dependencias entre servicios.  
   → [Docker Compose](https://docs.docker.com/compose/)
 
 - **Kubernetes: Orquestación en Producción**  
-  Pods, Services, Deployments, ConfigMaps, Secrets, Ingress controllers.  
+  Pods, Services, Deployments, ConfigMaps, Secrets, Ingress controllers. Ciclo de vida, YAML, clústeres, plano de control.  
   → [Kubernetes Documentation](https://kubernetes.io/docs/)
+
+- **Contenerización vs VMs**  
+  Comparación técnica entre Docker, Kubernetes, Nomad, Mesos para diferentes casos de uso.  
+  → [Contenerización vs VMs (Stackscale)](https://www.stackscale.com/)
 
 ### 🛠️ Herramientas y Frameworks
 
@@ -200,121 +204,7 @@ Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consi
 
 ---
 
-## 📊 2 Manipulación de Datos con pandas y CSV
-
-Procesamiento eficiente y análisis de datos tabulares para extraer insights y transformar información en diferentes formatos.
-
-## 📊 2 Manipulación de Datos con pandas y CSV
-
-Procesamiento eficiente y análisis de datos tabulares para extraer insights y transformar información en diferentes formatos.
-
-### 🔍 Conceptos Fundamentales
-
-- **pandas: Análisis de Datos**  
-  DataFrames, Series, indexing avanzado, operaciones vectorizadas de alto rendimiento.  
-  → [pandas Documentation](https://pandas.pydata.org/docs/)
-
-- **Formatos de Datos**  
-  CSV, Excel, JSON, Parquet, SQL. Lectura, escritura y conversión entre formatos.  
-  → [pandas I/O Tools](https://pandas.pydata.org/docs/user_guide/io.html)
-
-- **Limpieza y Transformación**  
-  Manejo de valores nulos, duplicados, normalización de tipos, regex para text mining.  
-  → [Data Cleaning Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html)
-
-### 🛠️ Herramientas y Frameworks
-
-- **Bibliotecas de Análisis**  
-  NumPy para operaciones numéricas, matplotlib/seaborn para visualización, scipy para estadística.  
-  → [NumPy](https://numpy.org/doc/) | [Matplotlib](https://matplotlib.org/stable/)
-
-- **Herramientas de Procesamiento**  
-  Jupyter Notebooks, pandas-profiling para EDA automatizado, Dask para big data.  
-  → [Jupyter](https://jupyter.org/documentation) | [Dask](https://docs.dask.org/)
-
-- **Validación de Datos**  
-  Great Expectations, pandera para schemas, pytest para testing de pipelines.  
-  → [Great Expectations](https://docs.greatexpectations.io/)
-
-### ⚙️ Buenas Prácticas y Aplicaciones
-
-- **Optimización de Performance**: Chunking para archivos grandes, operaciones vectorizadas, uso eficiente de memoria
-- **Pipeline de Datos**: ETL automatizado, validación de calidad, versionado de datasets
-- **Análisis Exploratorio**: Estadísticas descriptivas, correlaciones, detección de outliers
-- **Exportación Inteligente**: Formatos optimizados según uso final, compresión, metadata
-
-### 📚 Recursos Recomendados
-
-- [Python for Data Analysis - Wes McKinney](https://wesmckinney.com/book/)
-- [pandas Cookbook](https://github.com/jvns/pandas-cookbook)
-- [Real Python pandas Tutorials](https://realpython.com/pandas-python-explore-dataset/)
-- [Kaggle Learn: pandas](https://www.kaggle.com/learn/pandas)
-
-### 🧩 Integración con Otros Temas
-
-- **APIs**: Procesamiento de respuestas JSON, integración con endpoints de datos
-- **Bases de Datos**: ETL desde/hacia SQL, sincronización con ORMs
-- **Machine Learning**: Preparación de features, pipelines de sklearn
-- **Visualización**: Integración con librerías de gráficos interactivos
-
----
-
-## 🧮 3 Diseño de Algoritmos y Control de Errores
-
-Desarrollo de lógica robusta y manejo sistemático de fallos para crear aplicaciones confiables y eficientes.
-
-### 🔍 Conceptos Fundamentales
-
-- **Estructuras de Datos Fundamentales**  
-  Arrays, listas enlazadas, pilas, colas, árboles, grafos y hash tables.  
-  → [Algorithm Visualizer](https://algorithm-visualizer.org/)
-
-- **Algoritmos de Búsqueda y Ordenación**  
-  Binary search, quicksort, mergesort, algoritmos de grafos (BFS, DFS).  
-  → [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
-
-- **Manejo de Excepciones**  
-  Try/catch/finally, error propagation, logging estructurado, recovery strategies.  
-  → [Python Exception Handling](https://docs.python.org/3/tutorial/errors.html)
-
-### 🛠️ Herramientas y Frameworks
-
-- **Librerías de Algoritmos**  
-  Collections (Python), Lodash (JavaScript), algoritmos optimizados por lenguaje.  
-  → [Python Collections](https://docs.python.org/3/library/collections.html)
-
-- **Testing y Debugging**  
-  Unit testing, property-based testing, debuggers integrados, profilers.  
-  → [pytest Documentation](https://docs.pytest.org/)
-
-- **Logging y Monitoreo**  
-  Structured logging, error tracking (Sentry), APM tools, metrics de performance.  
-  → [Python Logging](https://docs.python.org/3/library/logging.html)
-
-### ⚙️ Buenas Prácticas y Aplicaciones
-
-- **Complejidad Algorítmica**: Análisis Big O, optimización de tiempo vs espacio, profiling de código
-- **Error Handling Strategy**: Fail-fast vs graceful degradation, circuit breakers, retry logic
-- **Code Quality**: Code reviews, static analysis, complexity metrics
-- **Testing Comprehensivo**: Unit, integration, property-based testing, casos edge
-
-### 📚 Recursos Recomendados
-
-- [Introduction to Algorithms - CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
-- [LeetCode Practice Platform](https://leetcode.com/)
-- [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
-- [Clean Code by Robert Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350884)
-
-### 🧩 Integración con Otros Temas
-
-- **APIs**: Rate limiting, error responses HTTP, timeout handling
-- **Bases de Datos**: Query optimization, transaction management, connection pooling
-- **Frontend**: Error boundaries, user feedback, offline handling
-- **DevOps**: Health checks, graceful shutdowns, failure recovery
-
----
-
-## 🗄️ 4 Bases de Datos Relacionales
+## �️ 4 Bases de Datos Relacionales
 
 Gestión eficiente de datos persistentes, desde prototipos con SQLite hasta sistemas empresariales con PostgreSQL y arquitecturas NoSQL.
 
@@ -491,7 +381,7 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
 
 ---
 
-## 🔗 7 Integración Full-Stack
+## � 7 Integración Full-Stack
 
 Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistema completo y escalable.
 
@@ -601,7 +491,7 @@ Automatización, versionado y despliegue continuo para entregar software de cali
 
 ---
 
-## 🧪 9 Pruebas y Calidad de Código
+## ✅ 9 Pruebas y Calidad de Código
 
 Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelencia en el desarrollo de software.
 
@@ -656,7 +546,7 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
 
 ---
 
-## 🌐 10 Temas Avanzados: Web3 y Smart Contracts
+## 🧬 10 Temas Avanzados: Web3 y Smart Contracts
 
 Exploración de la tecnología blockchain, contratos inteligentes y el ecosistema descentralizado para el futuro de las aplicaciones web.
 
@@ -711,7 +601,7 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
 
 ---
 
-## 🛠️ 11 Herramientas de Desarrollo
+## 🛠️ 11 Herramientas para Desarrollar
 
 Ecosistema completo de herramientas modernas para optimizar productividad, colaboración y entrega de software de calidad.
 
@@ -767,61 +657,6 @@ Ecosistema completo de herramientas modernas para optimizar productividad, colab
 - **DevOps**: Cloud development environments, automated deployment pipelines
 - **APIs**: Mock services, testing automation, documentation generation
 - **Frontend**: Authentication flows, real-time updates, progressive web apps
-
----
-
-## 🧠 Productividad, Mindfulness y Kaizen
-
-Metodologías para optimizar el proceso de aprendizaje, mantener el bienestar y fomentar la mejora continua en el desarrollo profesional.
-
-### 🔍 Conceptos Fundamentales
-
-- **Método Kaizen**  
-  Mejora continua através de pequeños cambios, retrospectivas regulares, métricas de progreso.  
-  → [Kaizen Institute](https://www.kaizen.com/what-is-kaizen/)
-
-- **Técnicas de Productividad**  
-  Pomodoro Technique, Time blocking, Getting Things Done (GTD), Deep Work.  
-  → [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique)
-
-- **Mindfulness en Desarrollo**  
-  Meditación, gestión de distracciones, balance trabajo-vida, manejo del estrés.  
-  → [Headspace for Work](https://work.headspace.com/)
-
-### 🛠️ Herramientas y Frameworks
-
-- **Gestión de Tareas**  
-  Notion, Obsidian, Todoist, Linear para organización personal y de equipo.  
-  → [Notion](https://www.notion.so/) | [Obsidian](https://obsidian.md/)
-
-- **Documentación de Aprendizaje**  
-  Digital gardens, learning logs, personal wikis, knowledge management systems.  
-  → [Building a Second Brain](https://www.buildingasecondbrain.com/)
-
-- **Automatización Personal**  
-  Scripts de automatización, IFTTT/Zapier, shortcuts, workflow optimization.  
-  → [Zapier](https://zapier.com/) | [IFTTT](https://ifttt.com/)
-
-### ⚙️ Buenas Prácticas y Aplicaciones
-
-- **Learning Strategy**: Active recall, spaced repetition, project-based learning
-- **Work-Life Balance**: Boundary setting, regular breaks, ergonomic workspace
-- **Continuous Improvement**: Regular retrospectives, skill assessment, goal setting
-- **Knowledge Sharing**: Technical writing, mentoring, community participation
-
-### 📚 Recursos Recomendados
-
-- [Deep Work by Cal Newport](https://www.calnewport.com/books/deep-work/)
-- [Atomic Habits by James Clear](https://jamesclear.com/atomic-habits)
-- [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/)
-- [Mindfulness for Programmers](https://pragprog.com/titles/fsmedit/mindfulness-for-programmers/)
-
-### 🧩 Integración con Otros Temas
-
-- **DevOps**: Automation mindset, continuous improvement culture
-- **Testing**: Quality-focused development, attention to detail
-- **Team Collaboration**: Communication skills, empathy, knowledge sharing
-- **All Topics**: Meta-learning skills, effective practice, sustainable development
 
 ---
 
