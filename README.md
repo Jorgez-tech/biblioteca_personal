@@ -1,4 +1,23 @@
-# Biblioteca de Conocimiento: Tu Ruta de Aprendizaje Técnico
+# Biblio### 🧠 Fundamentos de Desarrollo
+1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
+2. [🗃️ Bases de Datos: Relacionales y NoSQL](#️-2-bases-de-datos-relacionales-y-nosql)
+3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
+4. [🔧 Backend y Arquitectura de Servicios](#-4-backend-y-arquitectura-de-servicios)
+5. [🎨 Frontend Moderno](#-5-frontend-moderno)
+
+### ☁️ Infraestructura y Despliegue
+6. [☁️ Principales Servicios en la Nube](#️-6-principales-servicios-en-la-nube)
+7. [📦 Contenedores y Orquestación](#-7-contenedores-y-orquestación)
+8. [🔁 Integración Full-Stack](#-8-integración-full-stack)
+9. [⚙️ DevOps y Flujo de Trabajo](#️-9-devops-y-flujo-de-trabajo)
+
+### 🧪 Testing y Calidad
+10. [🧪 Testing con Herramientas Modernas](#-10-testing-con-herramientas-modernas)
+11. [✅ Pruebas y Calidad de Código](#-11-pruebas-y-calidad-de-código)
+
+### 🚀 Temas Avanzados
+12. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-12-temas-avanzados-web3-y-smart-contracts)  
+13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)o: Tu Ruta de Aprendizaje Técnico
 
 Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
 
@@ -6,17 +25,25 @@ Este repositorio funciona como un libro de consulta interactivo, donde cada cap�
 
 ## Tabla de Contenidos
 
+### 🧠 Fundamentos de Desarrollo
 1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [☁️ Principales Servicios en la Nube](#️-2-principales-servicios-en-la-nube)
-3. [📦 Contenedores y Orquestación](#-3-contenedores-y-orquestación)
-4. [�️ Bases de Datos Relacionales](#️-4-bases-de-datos-relacionales)
-5. [🔌 Desarrollo de APIs](#-5-desarrollo-de-apis)
-6. [🎨 Frontend Moderno](#-6-frontend-moderno)
-7. [� Integración Full-Stack](#-7-integración-full-stack)
+2. [�️ Bases de Datos Relacionales](#️-2-bases-de-datos-relacionales)
+3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
+4. [🎨 Frontend Moderno](#-4-frontend-moderno)
+
+### ☁️ Infraestructura y Despliegue
+5. [☁️ Principales Servicios en la Nube](#️-5-principales-servicios-en-la-nube)
+6. [📦 Contenedores y Orquestación](#-6-contenedores-y-orquestación)
+7. [🔁 Integración Full-Stack](#-7-integración-full-stack)
 8. [⚙️ DevOps y Flujo de Trabajo](#️-8-devops-y-flujo-de-trabajo)
-9. [✅ Pruebas y Calidad de Código](#-9-pruebas-y-calidad-de-código)  
-10. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-10-temas-avanzados-web3-y-smart-contracts)  
-11. [🛠️ Herramientas para Desarrollar](#️-11-herramientas-para-desarrollar)
+
+### 🧪 Testing y Calidad
+9. [🧪 Testing con Herramientas Modernas](#-9-testing-con-herramientas-modernas)
+10. [✅ Pruebas y Calidad de Código](#-10-pruebas-y-calidad-de-código)
+
+### 🚀 Temas Avanzados
+11. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-11-temas-avanzados-web3-y-smart-contracts)  
+12. [🛠️ Herramientas para Desarrollar](#️-12-herramientas-para-desarrollar)
 
 ---
 
@@ -78,7 +105,7 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
 
 ---
 
-## ☁️ 2 Principales Servicios en la Nube
+## ☁️ 6 Principales Servicios en la Nube
 
 Infraestructura escalable y servicios administrados para el desarrollo moderno. Aprovecha la computación en la nube para desplegar, escalar y mantener aplicaciones de forma eficiente y rentable.
 
@@ -141,7 +168,7 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 ---
 
-## 📦 3 Contenedores y Orquestación
+## 📦 7 Contenedores y Orquestación
 
 Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consistente y escalable en cualquier entorno.
 
@@ -204,53 +231,281 @@ Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consi
 
 ---
 
-## �️ 4 Bases de Datos Relacionales
+## 🗃️ 2 Bases de Datos: Relacionales y NoSQL
 
-Gestión eficiente de datos persistentes, desde prototipos con SQLite hasta sistemas empresariales con PostgreSQL y arquitecturas NoSQL.
+Ecosistema completo de almacenamiento de datos, desde bases relacionales tradicionales hasta sistemas NoSQL modernos, con estrategias de diseño, optimización y escalabilidad.
 
 ### 🔍 Conceptos Fundamentales
 
-- **SQL y Bases Relacionales**  
-  DDL/DML, joins avanzados, índices, transacciones ACID, normalización de esquemas.  
-  → [SQL Tutorial](https://www.w3schools.com/sql/) | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+#### **Bases de Datos Relacionales (SQL)**
+- **PostgreSQL: Producción Robusta**  
+  JSONB, extensiones, replicación, particionado, funciones avanzadas, full-text search.  
+  → [PostgreSQL Documentation](https://www.postgresql.org/docs/) | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
 
-- **SQLite: Desarrollo Rápido**  
-  Base de datos embebida, ideal para prototipos, testing y aplicaciones móviles.  
+- **MySQL: Popularidad y Performance**  
+  InnoDB engine, clustering, replication, query optimization, stored procedures.  
+  → [MySQL Documentation](https://dev.mysql.com/doc/) | [MySQL Performance Blog](https://www.percona.com/blog/)
+
+- **SQLite: Desarrollo y Embebido**  
+  Base de datos embebida, ideal para prototipos, testing, aplicaciones móviles y edge computing.  
   → [SQLite Documentation](https://www.sqlite.org/docs.html)
 
-- **PostgreSQL: Producción Robusta**  
-  JSONB, extensiones, replicación, particionado, funciones avanzadas.  
-  → [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- **SQL Server: Ecosistema Microsoft**  
+  T-SQL, integración con .NET, Analysis Services, reporting services.  
+  → [SQL Server Documentation](https://docs.microsoft.com/sql/sql-server/)
 
-- **NoSQL: MongoDB**  
-  Documentos BSON, agregación pipeline, sharding, índices geoespaciales.  
-  → [MongoDB Manual](https://www.mongodb.com/docs/manual/)
+#### **Bases de Datos NoSQL**
+
+**Document Databases**
+- **MongoDB: Documentos Flexibles**  
+  BSON documents, aggregation pipeline, sharding, replica sets, GridFS para archivos.  
+  → [MongoDB Manual](https://www.mongodb.com/docs/manual/) | [MongoDB University](https://university.mongodb.com/)
+
+- **CouchDB: Sincronización Distribuida**  
+  Multi-master replication, MapReduce views, REST API nativa, offline-first.  
+  → [CouchDB Documentation](https://docs.couchdb.org/)
+
+**Key-Value Stores**
+- **Redis: In-Memory Performance**  
+  Caching, pub/sub, data structures, persistence, clustering, Lua scripting.  
+  → [Redis Documentation](https://redis.io/documentation) | [Redis University](https://university.redis.com/)
+
+- **DynamoDB: Serverless NoSQL**  
+  Managed by AWS, single-digit millisecond latency, automatic scaling, global tables.  
+  → [DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/)
+
+**Column-Family**
+- **Cassandra: Escalabilidad Masiva**  
+  Distributed architecture, eventual consistency, CQL, time-series data.  
+  → [Cassandra Documentation](https://cassandra.apache.org/doc/)
+
+**Graph Databases**
+- **Neo4j: Relaciones Complejas**  
+  Cypher query language, graph algorithms, social networks, recommendation systems.  
+  → [Neo4j Documentation](https://neo4j.com/docs/) | [Graph Academy](https://graphacademy.neo4j.com/)
 
 ### 🛠️ Herramientas y Frameworks
 
-- **ORMs y Query Builders**  
-  SQLAlchemy (Python), Prisma (Node.js), Knex.js para migraciones y queries.  
-  → [SQLAlchemy](https://docs.sqlalchemy.org/) | [Prisma](https://www.prisma.io/docs/)
+#### **ORMs y Query Builders**
+```python
+# SQLAlchemy (Python) - Relacional
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 
-- **Herramientas de Administración**  
-  pgAdmin, MongoDB Compass, DBeaver, phpMyAdmin para gestión visual.  
-  → [pgAdmin](https://www.pgadmin.org/docs/) | [MongoDB Compass](https://www.mongodb.com/products/compass)
+Base = declarative_base()
 
-- **Servicios en la Nube**  
-  AWS RDS, MongoDB Atlas, PlanetScale, Supabase para hosting administrado.  
-  → [MongoDB Atlas](https://www.mongodb.com/atlas) | [Supabase](https://supabase.com/docs)
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    username = Column(String(50), unique=True)
+    email = Column(String(120), unique=True)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+# Prisma (Node.js) - Multi-database
+# schema.prisma
+model User {
+  id       Int    @id @default(autoincrement())
+  username String @unique
+  email    String @unique
+  posts    Post[]
+}
+```
 
-- **Diseño de Esquemas**: Normalización vs desnormalización, llaves foráneas, constraints
-- **Performance**: Índices estratégicos, query optimization, connection pooling
-- **Seguridad**: Autenticación, autorización por roles, encriptación de datos sensibles
-- **Backup y Recovery**: Estrategias automatizadas, point-in-time recovery, disaster recovery
+#### **Herramientas de Administración**
+| **Herramienta** | **Base de Datos** | **Características** |
+|---|---|---|
+| **pgAdmin** | PostgreSQL | GUI completo, query editor, monitoring |
+| **MySQL Workbench** | MySQL | Design, development, administration |
+| **MongoDB Compass** | MongoDB | Visual query builder, schema analysis |
+| **Redis Insight** | Redis | Real-time monitoring, profiling |
+| **DBeaver** | Multi-database | Universal tool, plugins, cloud support |
+| **DataGrip** | Multi-database | JetBrains IDE, intelligent completion |
 
-### 📚 Recursos Recomendados
+#### **Servicios en la Nube**
+```yaml
+# Docker Compose para desarrollo local
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: myapp
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
+  mongodb:
+    image: mongo:7
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: dev
+      MONGO_INITDB_ROOT_PASSWORD: dev123
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  mongodb_data:
+  redis_data:
+```
+
+### ⚙️ Patrones y Estrategias de Diseño
+
+#### **Diseño Relacional vs NoSQL**
+| **Aspecto** | **SQL (Relacional)** | **NoSQL (No Relacional)** |
+|---|---|---|
+| **Esquema** | Fijo, estructurado | Flexible, dinámico |
+| **Escalabilidad** | Vertical (scale-up) | Horizontal (scale-out) |
+| **Consistencia** | ACID garantizado | Eventual consistency |
+| **Consultas** | SQL estándar | APIs específicas |
+| **Relaciones** | JOINs eficientes | Desnormalización |
+| **Casos de uso** | Transacciones, reportes | Big data, real-time |
+
+#### **Estrategias de Modelado**
+```javascript
+// MongoDB - Embedding vs Referencing
+// Embedding (denormalized)
+{
+  "_id": ObjectId("..."),
+  "username": "johndoe",
+  "email": "john@example.com",
+  "posts": [
+    {
+      "title": "My First Post",
+      "content": "Hello world!",
+      "createdAt": ISODate("...")
+    }
+  ]
+}
+
+// Referencing (normalized)
+// Users collection
+{
+  "_id": ObjectId("user123"),
+  "username": "johndoe",
+  "email": "john@example.com"
+}
+
+// Posts collection
+{
+  "_id": ObjectId("post456"),
+  "userId": ObjectId("user123"),
+  "title": "My First Post",
+  "content": "Hello world!"
+}
+```
+
+#### **Indexing Strategies**
+```sql
+-- PostgreSQL - Índices especializados
+CREATE INDEX CONCURRENTLY idx_users_email ON users(email);
+CREATE INDEX idx_posts_created_at ON posts USING BRIN(created_at);
+CREATE INDEX idx_content_fulltext ON posts USING GIN(to_tsvector('english', content));
+
+-- Índice parcial
+CREATE INDEX idx_active_users ON users(username) WHERE active = true;
+
+-- Índice compuesto
+CREATE INDEX idx_posts_user_date ON posts(user_id, created_at DESC);
+```
+
+### 🔒 Seguridad y Performance
+
+#### **Seguridad de Datos**
+- **Authentication**: Database users, roles, SSL/TLS connections
+- **Authorization**: Row-level security, column-level permissions, views
+- **Encryption**: At-rest encryption, in-transit encryption, field-level encryption
+- **Auditing**: Query logging, access monitoring, compliance reporting
+
+#### **Optimización de Performance**
+```python
+# Connection Pooling Example (Python)
+from sqlalchemy import create_engine
+from sqlalchemy.pool import QueuePool
+
+# PostgreSQL with connection pooling
+engine = create_engine(
+    'postgresql://user:pass@localhost/db',
+    poolclass=QueuePool,
+    pool_size=20,
+    max_overflow=30,
+    pool_pre_ping=True,
+    pool_recycle=3600
+)
+
+# MongoDB with connection pooling
+from pymongo import MongoClient
+
+client = MongoClient(
+    'mongodb://localhost:27017/',
+    maxPoolSize=50,
+    minPoolSize=10,
+    maxIdleTimeMS=30000,
+    waitQueueTimeoutMS=5000
+)
+```
+
+#### **Caching Strategies**
+- **Database-level**: Query result caching, prepared statements
+- **Application-level**: Redis caching, Memcached, in-memory caches
+- **CDN caching**: Static data, geographically distributed
+- **Cache invalidation**: TTL strategies, event-driven invalidation
+
+### 📊 Data Migration y ETL
+
+```python
+# Database Migration Example
+# Alembic (SQLAlchemy) migration
+def upgrade():
+    op.create_table('users',
+        sa.Column('id', sa.Integer(), nullable=False),
+        sa.Column('username', sa.String(50), nullable=False),
+        sa.Column('email', sa.String(120), nullable=False),
+        sa.Column('created_at', sa.DateTime(), nullable=False),
+        sa.PrimaryKeyConstraint('id'),
+        sa.UniqueConstraint('email'),
+        sa.UniqueConstraint('username')
+    )
+    op.create_index('idx_users_email', 'users', ['email'])
+
+def downgrade():
+    op.drop_table('users')
+```
+
+### 📚 Recursos Especializados
+
+**Libros y Guides**
 - [Database Design for Mere Mortals](https://www.amazon.com/Database-Design-Mere-Mortals-Hands/dp/0321884493)
 - [High Performance MySQL](https://www.oreilly.com/library/view/high-performance-mysql/9781449332471/)
+- [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
+- [MongoDB: The Definitive Guide](https://www.oreilly.com/library/view/mongodb-the-definitive/9781491954454/)
+
+**Cursos y Certificaciones**
+- [MongoDB University](https://university.mongodb.com/)
+- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+- [Redis University](https://university.redis.com/)
+- [AWS Database Training](https://aws.amazon.com/training/learn-about/databases/)
+
+### 🧩 Integración con Otros Temas
+
+- **APIs**: Database connections, ORM integration, query optimization para endpoints
+- **Backend**: Repository patterns, data access layers, transaction management
+- **Contenedores**: Database containers, persistent volumes, orchestration con Kubernetes
+- **DevOps**: Database migrations en CI/CD, environment management, monitoring y alerting
+- **Testing**: Database testing, test data management, integration testing
+- **Servicios en la Nube**: Managed databases, auto-scaling, backup automation
 - [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
 - [MongoDB University](https://university.mongodb.com/)
 
@@ -263,7 +518,7 @@ Gestión eficiente de datos persistentes, desde prototipos con SQLite hasta sist
 
 ---
 
-## 🔌 5 Desarrollo de APIs
+## 🔌 3 Desarrollo de APIs
 
 Construcción de servicios web escalables, seguros y bien documentados que forman la columna vertebral de aplicaciones modernas.
 
@@ -322,7 +577,153 @@ Construcción de servicios web escalables, seguros y bien documentados que forma
 
 ---
 
-## 🎨 6 Frontend Moderno
+## 🔧 4 Backend y Arquitectura de Servicios
+
+Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones modernos y mejores prácticas para sistemas distribuidos.
+
+### 🔍 Conceptos Fundamentales
+
+- **Arquitectura de Microservicios**  
+  Service decomposition, bounded contexts, API gateways, service mesh y communication patterns.  
+  → [Microservices Patterns](https://microservices.io/patterns/index.html) | [Martin Fowler Microservices](https://martinfowler.com/articles/microservices.html)
+
+- **Patrones de Diseño Backend**  
+  Repository Pattern, Service Layer, CQRS, Event Sourcing, Saga Pattern.  
+  → [Enterprise Application Architecture](https://martinfowler.com/eaaCatalog/) | [DDD Patterns](https://www.domainlanguage.com/ddd/)
+
+- **Message Queues y Event-Driven Architecture**  
+  RabbitMQ, Apache Kafka, Redis Pub/Sub, event streaming y asynchronous processing.  
+  → [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html) | [Kafka Documentation](https://kafka.apache.org/documentation/)
+
+- **Caching Strategies**  
+  Redis, Memcached, application-level caching, distributed caching y cache invalidation.  
+  → [Redis Documentation](https://redis.io/documentation) | [Caching Best Practices](https://docs.microsoft.com/azure/architecture/best-practices/caching)
+
+### 🛠️ Frameworks y Herramientas Backend
+
+#### **Python Ecosystem**
+- **Django**: Full-featured framework, ORM, admin panel, batteries included
+- **FastAPI**: Modern async framework, automatic documentation, type hints
+- **Flask**: Micro-framework, flexibility, extensions ecosystem
+- **Celery**: Distributed task queue, background jobs, scheduling
+
+#### **Node.js Ecosystem**
+- **Express.js**: Minimal framework, middleware ecosystem, routing
+- **Nest.js**: TypeScript-first, modular architecture, decorators
+- **Koa.js**: Next-generation framework, async/await support
+- **Bull**: Redis-based queue system for Node.js
+
+#### **Java/JVM Ecosystem**
+- **Spring Boot**: Enterprise framework, dependency injection, auto-configuration
+- **Quarkus**: Cloud-native Java, fast startup, low memory footprint
+- **Micronaut**: Microservices framework, compile-time DI, GraalVM support
+
+#### **Message Brokers y Queues**
+```yaml
+# Docker Compose para desarrollo
+version: '3.8'
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: dev
+      RABBITMQ_DEFAULT_PASS: dev123
+```
+
+### ⚙️ Patrones y Arquitecturas
+
+#### **Monolito vs Microservicios**
+| **Aspecto** | **Monolito** | **Microservicios** |
+|---|---|---|
+| **Complejidad inicial** | Baja | Alta |
+| **Escalabilidad** | Vertical | Horizontal |
+| **Deployment** | Todo junto | Independiente |
+| **Tecnologías** | Homogéneas | Heterogéneas |
+| **Datos** | Base compartida | Base por servicio |
+| **Debugging** | Más fácil | Más complejo |
+
+#### **Event-Driven Patterns**
+```python
+# Example: Event Publishing Pattern
+class OrderService:
+    def __init__(self, event_bus):
+        self.event_bus = event_bus
+    
+    def create_order(self, order_data):
+        order = Order.create(order_data)
+        
+        # Publish event for other services
+        self.event_bus.publish('order.created', {
+            'order_id': order.id,
+            'customer_id': order.customer_id,
+            'amount': order.total_amount
+        })
+        
+        return order
+```
+
+#### **Repository Pattern**
+```python
+# Abstract Repository
+from abc import ABC, abstractmethod
+
+class UserRepository(ABC):
+    @abstractmethod
+    def find_by_id(self, user_id: int) -> User:
+        pass
+    
+    @abstractmethod
+    def save(self, user: User) -> User:
+        pass
+
+# Concrete Implementation
+class SQLUserRepository(UserRepository):
+    def __init__(self, db_session):
+        self.db = db_session
+    
+    def find_by_id(self, user_id: int) -> User:
+        return self.db.query(User).filter(User.id == user_id).first()
+    
+    def save(self, user: User) -> User:
+        self.db.add(user)
+        self.db.commit()
+        return user
+```
+
+### 🔒 Seguridad y Performance
+
+- **Authentication & Authorization**: JWT, OAuth2, RBAC, API keys management
+- **Rate Limiting**: Token bucket, sliding window, distributed rate limiting
+- **Input Validation**: Schema validation, sanitization, injection prevention
+- **Monitoring**: APM tools, metrics collection, distributed tracing, health checks
+- **Logging**: Structured logging, centralized logs, correlation IDs
+
+### 📚 Recursos Especializados
+
+- [Building Microservices - Sam Newman](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/)
+- [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html)
+- [Domain-Driven Design - Eric Evans](https://www.domainlanguage.com/ddd/)
+- [Clean Architecture - Robert Martin](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+### 🧩 Integración con Otros Temas
+
+- **APIs**: Implementation layer, business logic, data access patterns
+- **Bases de Datos**: Connection pooling, transaction management, data modeling
+- **Contenedores**: Service deployment, scaling strategies, health checks
+- **DevOps**: CI/CD pipelines, infrastructure as code, monitoring integration
+- **Testing**: Unit testing, integration testing, contract testing
+
+---
+
+## 🎨 5 Frontend Moderno
 
 Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen experiencias de usuario excepcionales en la web moderna.
 
@@ -381,7 +782,7 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
 
 ---
 
-## � 7 Integración Full-Stack
+## 🔁 8 Integración Full-Stack
 
 Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistema completo y escalable.
 
@@ -436,7 +837,7 @@ Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistem
 
 ---
 
-## ⚙️ 8 DevOps y Flujo de Trabajo
+## ⚙️ 9 DevOps y Flujo de Trabajo
 
 Automatización, versionado y despliegue continuo para entregar software de calidad con confianza y eficiencia.
 
@@ -491,7 +892,162 @@ Automatización, versionado y despliegue continuo para entregar software de cali
 
 ---
 
-## ✅ 9 Pruebas y Calidad de Código
+## 🧪 10 Testing con Herramientas Modernas
+
+Framework completo de testing automatizado con templates, herramientas CI/CD y buenas prácticas de seguridad para desarrollo moderno.
+
+### 🔍 Conceptos Fundamentales
+
+- **Testing Framework Strategy**  
+  Jest, Cypress, Playwright, Vitest. Configuración multiplataforma y integración con IDEs.  
+  → [Jest Documentation](https://jestjs.io/docs/getting-started) | [Cypress Guide](https://docs.cypress.io/guides/overview/why-cypress)
+
+- **CI/CD Testing Integration**  
+  GitHub Actions workflows, parallel testing, test reporting y artifact management.  
+  → [GitHub Actions Testing](https://docs.github.com/actions/automating-builds-and-tests) | [GitHub Codespaces](https://docs.github.com/codespaces)
+
+- **Mocking y Test Doubles**  
+  Mock servers, API stubbing, service virtualization, database testing strategies.  
+  → [Mock Service Worker](https://mswjs.io/) | [Testcontainers](https://www.testcontainers.org/)
+
+- **Security Testing**  
+  Vulnerability scanning, secrets management in tests, secure test environments.  
+  → [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+
+### 🛠️ Templates y Herramientas
+
+#### **Frontend Testing**
+```yaml
+# .github/workflows/frontend-tests.yml
+name: Frontend Tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run test:unit
+      - run: npm run test:e2e
+      - run: npm run test:coverage
+```
+
+#### **Backend API Testing**
+```yaml
+# .github/workflows/api-tests.yml
+name: API Tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_PASSWORD: testpass
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements-test.txt
+      - run: pytest tests/ --cov=app --cov-report=xml
+```
+
+### ⚙️ Comparativas de Herramientas
+
+| **Herramienta** | **Características Clave** | **Ideal Para** | **Backend/Frontend** |
+|---|---|---|---|
+| **Jest** | Snapshot testing, mocking nativo, watch mode | Unit tests, React/Node.js | Ambos |
+| **Cypress** | Real browser testing, time travel debugging | E2E tests, UI validation | Frontend |
+| **Playwright** | Multi-browser, mobile testing, API testing | Cross-browser E2E, mobile | Frontend + API |
+| **Pytest** | Fixtures, parametrized tests, plugins | Python backend, API testing | Backend |
+| **Postman/Newman** | Collection runner, environment variables | API testing, documentation | Backend |
+| **Testcontainers** | Real database testing, service isolation | Integration tests, microservices | Backend |
+
+### 📚 Templates de Configuración
+
+#### **Jest + React Testing Library**
+```javascript
+// jest.config.js
+module.exports = {
+  testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
+  moduleNameMapping: {
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+  },
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx}',
+    '!src/index.js',
+    '!src/reportWebVitals.js',
+  ],
+  coverageThreshold: {
+    global: {
+      branches: 80,
+      functions: 80,
+      lines: 80,
+      statements: 80,
+    },
+  },
+};
+```
+
+#### **Cypress Configuration**
+```javascript
+// cypress.config.js
+const { defineConfig } = require('cypress');
+
+module.exports = defineConfig({
+  e2e: {
+    baseUrl: 'http://localhost:3000',
+    supportFile: 'cypress/support/e2e.js',
+    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
+    video: true,
+    screenshotOnRunFailure: true,
+    env: {
+      coverage: true,
+    },
+  },
+  component: {
+    devServer: {
+      framework: 'react',
+      bundler: 'vite',
+    },
+  },
+});
+```
+
+### 🔒 Buenas Prácticas de Seguridad
+
+- **Secrets Management**: Uso de GitHub Secrets, variables de entorno seguras
+- **Test Data**: Datos sintéticos, anonimización, cleanup automático
+- **Environment Isolation**: Contenedores de testing, network policies
+- **Dependency Scanning**: Audit de dependencias de testing, updates automatizados
+
+### 📚 Recursos y Documentación
+
+- [Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app)
+- [Jest Documentation](https://jestjs.io/docs/getting-started)
+- [GitHub Actions Examples](https://github.com/actions/example-services)
+
+### 🧩 Integración con Otros Temas
+
+- **DevOps**: Automated testing pipelines, deployment gates, quality metrics
+- **Frontend**: Component testing, visual regression, accessibility testing
+- **Backend**: API contract testing, database testing, performance testing
+- **Servicios en la Nube**: Cloud testing environments, managed test services
+
+---
+
+## ✅ 11 Pruebas y Calidad de Código
 
 Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelencia en el desarrollo de software.
 
@@ -546,7 +1102,7 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
 
 ---
 
-## 🧬 10 Temas Avanzados: Web3 y Smart Contracts
+## 🧬 12 Temas Avanzados: Web3 y Smart Contracts
 
 Exploración de la tecnología blockchain, contratos inteligentes y el ecosistema descentralizado para el futuro de las aplicaciones web.
 
@@ -601,7 +1157,7 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
 
 ---
 
-## 🛠️ 11 Herramientas para Desarrollar
+## 🛠️ 13 Herramientas para Desarrollar
 
 Ecosistema completo de herramientas modernas para optimizar productividad, colaboración y entrega de software de calidad.
 
