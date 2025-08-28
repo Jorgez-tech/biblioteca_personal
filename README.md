@@ -1,4 +1,12 @@
-# Biblio### 🧠 Fundamentos de Desarrollo
+# Biblioteca Personal: Tu Ruta de Aprendizaje Técnico
+
+Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
+
+---
+
+## Tabla de Contenidos
+
+### 🧠 Fundamentos de Desarrollo
 1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
 2. [🗃️ Bases de Datos: Relacionales y NoSQL](#️-2-bases-de-datos-relacionales-y-nosql)
 3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
@@ -17,36 +25,7 @@
 
 ### 🚀 Temas Avanzados
 12. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-12-temas-avanzados-web3-y-smart-contracts)  
-13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)o: Tu Ruta de Aprendizaje Técnico
-
-Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
-
----
-
-## Tabla de Contenidos
-
-### 🧠 Fundamentos de Desarrollo
-1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [�️ Bases de Datos Relacionales](#️-2-bases-de-datos-relacionales)
-3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
-4. [🎨 Frontend Moderno](#-4-frontend-moderno)
-
-### ☁️ Infraestructura y Despliegue
-5. [☁️ Principales Servicios en la Nube](#️-5-principales-servicios-en-la-nube)
-6. [📦 Contenedores y Orquestación](#-6-contenedores-y-orquestación)
-7. [🔁 Integración Full-Stack](#-7-integración-full-stack)
-8. [⚙️ DevOps y Flujo de Trabajo](#️-8-devops-y-flujo-de-trabajo)
-
-### 🧪 Testing y Calidad
-9. [🧪 Testing con Herramientas Modernas](#-9-testing-con-herramientas-modernas)
-10. [✅ Pruebas y Calidad de Código](#-10-pruebas-y-calidad-de-código)
-
-### 🚀 Temas Avanzados
-11. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-11-temas-avanzados-web3-y-smart-contracts)  
-12. [🛠️ Herramientas para Desarrollar](#️-12-herramientas-para-desarrollar)
-
----
-
+13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)
 
 ---
 
@@ -506,15 +485,6 @@ def downgrade():
 - **DevOps**: Database migrations en CI/CD, environment management, monitoring y alerting
 - **Testing**: Database testing, test data management, integration testing
 - **Servicios en la Nube**: Managed databases, auto-scaling, backup automation
-- [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
-- [MongoDB University](https://university.mongodb.com/)
-
-### 🧩 Integración con Otros Temas
-
-- **APIs**: Endpoints CRUD, paginación, filtros avanzados, caching de queries
-- **Contenedores**: Databases en Docker, persistent volumes, orchestración con Kubernetes
-- **DevOps**: Database migrations en CI/CD, environment management, monitoring
-- **Frontend**: Real-time subscriptions, optimistic updates, offline sync
 
 ---
 
