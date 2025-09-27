@@ -1,25 +1,6 @@
-# Biblio### 🧠 Fundamentos de Desarrollo
-1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [🗃️ Bases de Datos: Relacionales y NoSQL](#️-2-bases-de-datos-relacionales-y-nosql)
-3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
-4. [🔧 Backend y Arquitectura de Servicios](#-4-backend-y-arquitectura-de-servicios)
-5. [🎨 Frontend Moderno](#-5-frontend-moderno)
+# Biblioteca de Conocimientos
 
-### ☁️ Infraestructura y Despliegue
-6. [☁️ Principales Servicios en la Nube](#️-6-principales-servicios-en-la-nube)
-7. [📦 Contenedores y Orquestación](#-7-contenedores-y-orquestación)
-8. [🔁 Integración Full-Stack](#-8-integración-full-stack)
-9. [⚙️ DevOps y Flujo de Trabajo](#️-9-devops-y-flujo-de-trabajo)
-
-### 🧪 Testing y Calidad
-10. [🧪 Testing con Herramientas Modernas](#-10-testing-con-herramientas-modernas)
-11. [✅ Pruebas y Calidad de Código](#-11-pruebas-y-calidad-de-código)
-
-### 🚀 Temas Avanzados
-12. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-12-temas-avanzados-web3-y-smart-contracts)  
-13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)o: Tu Ruta de Aprendizaje Técnico
-
-Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
+Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemplos para backend, frontend, bases de datos, DevOps y testing. Está organizada en secciones que puedes usar como guía de estudio o referencia rápida.
 
 ---
 
@@ -96,7 +77,7 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 - [Python Software Foundation](https://www.python.org/about/apps/)
 
-### 🧩 Integración con Otros Temas
+#### 🧩 Integración con Otros Temas — Conexiones
 
 - **APIs**: Fundamento para desarrollo de servicios RESTful y GraphQL
 - **Bases de Datos**: ORMs y conectores nativos para integración con SQL/NoSQL
@@ -509,7 +490,8 @@ def downgrade():
 - [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
 - [MongoDB University](https://university.mongodb.com/)
 
-### 🧩 Integración con Otros Temas
+ 
+**🧩 Integración con Otros Temas**
 
 - **APIs**: Endpoints CRUD, paginación, filtros avanzados, caching de queries
 - **Contenedores**: Databases en Docker, persistent volumes, orchestración con Kubernetes
