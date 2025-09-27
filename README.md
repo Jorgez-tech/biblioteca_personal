@@ -151,7 +151,7 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consistente y escalable en cualquier entorno.
 
-### � Conceptos Fundamentales
+### 🔍 Conceptos Fundamentales
 
 - **Docker: Containerización**  
   Imágenes, contenedores, Dockerfile, registries, volúmenes y redes.  
@@ -266,6 +266,7 @@ Ecosistema completo de almacenamiento de datos, desde bases relacionales tradici
 ### 🛠️ Herramientas y Frameworks
 
 #### **ORMs y Query Builders**
+
 ```python
 # SQLAlchemy (Python) - Relacional
 from sqlalchemy import create_engine, Column, Integer, String
@@ -291,6 +292,7 @@ model User {
 ```
 
 #### **Herramientas de Administración**
+
 | **Herramienta** | **Base de Datos** | **Características** |
 |---|---|---|
 | **pgAdmin** | PostgreSQL | GUI completo, query editor, monitoring |
@@ -301,6 +303,7 @@ model User {
 | **DataGrip** | Multi-database | JetBrains IDE, intelligent completion |
 
 #### **Servicios en la Nube**
+
 ```yaml
 # Docker Compose para desarrollo local
 version: '3.8'
@@ -343,6 +346,7 @@ volumes:
 ### ⚙️ Patrones y Estrategias de Diseño
 
 #### **Diseño Relacional vs NoSQL**
+
 | **Aspecto** | **SQL (Relacional)** | **NoSQL (No Relacional)** |
 |---|---|---|
 | **Esquema** | Fijo, estructurado | Flexible, dinámico |
@@ -353,6 +357,7 @@ volumes:
 | **Casos de uso** | Transacciones, reportes | Big data, real-time |
 
 #### **Estrategias de Modelado**
+
 ```javascript
 // MongoDB - Embedding vs Referencing
 // Embedding (denormalized)
@@ -387,6 +392,7 @@ volumes:
 ```
 
 #### **Indexing Strategies**
+
 ```sql
 -- PostgreSQL - Índices especializados
 CREATE INDEX CONCURRENTLY idx_users_email ON users(email);
@@ -409,6 +415,7 @@ CREATE INDEX idx_posts_user_date ON posts(user_id, created_at DESC);
 - **Auditing**: Query logging, access monitoring, compliance reporting
 
 #### **Optimización de Performance**
+
 ```python
 # Connection Pooling Example (Python)
 from sqlalchemy import create_engine
@@ -589,6 +596,7 @@ Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones
 - **Micronaut**: Microservices framework, compile-time DI, GraalVM support
 
 #### **Message Brokers y Queues**
+
 ```yaml
 # Docker Compose para desarrollo
 version: '3.8'
@@ -611,6 +619,7 @@ services:
 ### ⚙️ Patrones y Arquitecturas
 
 #### **Monolito vs Microservicios**
+
 | **Aspecto** | **Monolito** | **Microservicios** |
 |---|---|---|
 | **Complejidad inicial** | Baja | Alta |
@@ -621,6 +630,7 @@ services:
 | **Debugging** | Más fácil | Más complejo |
 
 #### **Event-Driven Patterns**
+
 ```python
 # Example: Event Publishing Pattern
 class OrderService:
@@ -641,6 +651,7 @@ class OrderService:
 ```
 
 #### **Repository Pattern**
+
 ```python
 # Abstract Repository
 from abc import ABC, abstractmethod
@@ -887,6 +898,7 @@ Framework completo de testing automatizado con templates, herramientas CI/CD y b
 ### 🛠️ Templates y Herramientas
 
 #### **Frontend Testing**
+
 ```yaml
 # .github/workflows/frontend-tests.yml
 name: Frontend Tests
@@ -907,6 +919,7 @@ jobs:
 ```
 
 #### **Backend API Testing**
+
 ```yaml
 # .github/workflows/api-tests.yml
 name: API Tests
@@ -945,6 +958,7 @@ jobs:
 ### 📚 Templates de Configuración
 
 #### **Jest + React Testing Library**
+
 ```javascript
 // jest.config.js
 module.exports = {
@@ -970,6 +984,7 @@ module.exports = {
 ```
 
 #### **Cypress Configuration**
+
 ```javascript
 // cypress.config.js
 const { defineConfig } = require('cypress');
