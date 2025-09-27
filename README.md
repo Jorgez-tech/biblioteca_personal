@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Biblioteca de Conocimientos
 
 Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemplos para backend, frontend, bases de datos, DevOps y testing. Está organizada en secciones que puedes usar como guía de estudio o referencia rápida.
@@ -28,6 +29,36 @@ Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemp
 
 ---
 
+=======
+# Biblioteca Personal: Tu Ruta de Aprendizaje Técnico
+
+Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
+
+---
+
+## Tabla de Contenidos
+
+### 🧠 Fundamentos de Desarrollo
+1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
+2. [🗃️ Bases de Datos: Relacionales y NoSQL](#️-2-bases-de-datos-relacionales-y-nosql)
+3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
+4. [🔧 Backend y Arquitectura de Servicios](#-4-backend-y-arquitectura-de-servicios)
+5. [🎨 Frontend Moderno](#-5-frontend-moderno)
+
+### ☁️ Infraestructura y Despliegue
+6. [☁️ Principales Servicios en la Nube](#️-6-principales-servicios-en-la-nube)
+7. [📦 Contenedores y Orquestación](#-7-contenedores-y-orquestación)
+8. [🔁 Integración Full-Stack](#-8-integración-full-stack)
+9. [⚙️ DevOps y Flujo de Trabajo](#️-9-devops-y-flujo-de-trabajo)
+
+### 🧪 Testing y Calidad
+10. [🧪 Testing con Herramientas Modernas](#-10-testing-con-herramientas-modernas)
+11. [✅ Pruebas y Calidad de Código](#-11-pruebas-y-calidad-de-código)
+
+### 🚀 Temas Avanzados
+12. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-12-temas-avanzados-web3-y-smart-contracts)  
+13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)
+>>>>>>> a3472c0e1a50234fdafac895e1595c18d90336c2
 
 ---
 
@@ -153,7 +184,7 @@ Infraestructura escalable y servicios administrados para el desarrollo moderno. 
 
 Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consistente y escalable en cualquier entorno.
 
-### � Conceptos Fundamentales
+### 🔍 Conceptos Fundamentales
 
 - **Docker: Containerización**  
   Imágenes, contenedores, Dockerfile, registries, volúmenes y redes.  
@@ -268,6 +299,7 @@ Ecosistema completo de almacenamiento de datos, desde bases relacionales tradici
 ### 🛠️ Herramientas y Frameworks
 
 #### **ORMs y Query Builders**
+
 ```python
 # SQLAlchemy (Python) - Relacional
 from sqlalchemy import create_engine, Column, Integer, String
@@ -293,6 +325,7 @@ model User {
 ```
 
 #### **Herramientas de Administración**
+
 | **Herramienta** | **Base de Datos** | **Características** |
 |---|---|---|
 | **pgAdmin** | PostgreSQL | GUI completo, query editor, monitoring |
@@ -303,6 +336,7 @@ model User {
 | **DataGrip** | Multi-database | JetBrains IDE, intelligent completion |
 
 #### **Servicios en la Nube**
+
 ```yaml
 # Docker Compose para desarrollo local
 version: '3.8'
@@ -345,6 +379,7 @@ volumes:
 ### ⚙️ Patrones y Estrategias de Diseño
 
 #### **Diseño Relacional vs NoSQL**
+
 | **Aspecto** | **SQL (Relacional)** | **NoSQL (No Relacional)** |
 |---|---|---|
 | **Esquema** | Fijo, estructurado | Flexible, dinámico |
@@ -355,6 +390,7 @@ volumes:
 | **Casos de uso** | Transacciones, reportes | Big data, real-time |
 
 #### **Estrategias de Modelado**
+
 ```javascript
 // MongoDB - Embedding vs Referencing
 // Embedding (denormalized)
@@ -389,6 +425,7 @@ volumes:
 ```
 
 #### **Indexing Strategies**
+
 ```sql
 -- PostgreSQL - Índices especializados
 CREATE INDEX CONCURRENTLY idx_users_email ON users(email);
@@ -411,6 +448,7 @@ CREATE INDEX idx_posts_user_date ON posts(user_id, created_at DESC);
 - **Auditing**: Query logging, access monitoring, compliance reporting
 
 #### **Optimización de Performance**
+
 ```python
 # Connection Pooling Example (Python)
 from sqlalchemy import create_engine
@@ -487,6 +525,7 @@ def downgrade():
 - **DevOps**: Database migrations en CI/CD, environment management, monitoring y alerting
 - **Testing**: Database testing, test data management, integration testing
 - **Servicios en la Nube**: Managed databases, auto-scaling, backup automation
+<<<<<<< HEAD
 - [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
 - [MongoDB University](https://university.mongodb.com/)
 
@@ -497,6 +536,8 @@ def downgrade():
 - **Contenedores**: Databases en Docker, persistent volumes, orchestración con Kubernetes
 - **DevOps**: Database migrations en CI/CD, environment management, monitoring
 - **Frontend**: Real-time subscriptions, optimistic updates, offline sync
+=======
+>>>>>>> a3472c0e1a50234fdafac895e1595c18d90336c2
 
 ---
 
@@ -601,6 +642,7 @@ Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones
 - **Micronaut**: Microservices framework, compile-time DI, GraalVM support
 
 #### **Message Brokers y Queues**
+
 ```yaml
 # Docker Compose para desarrollo
 version: '3.8'
@@ -623,6 +665,7 @@ services:
 ### ⚙️ Patrones y Arquitecturas
 
 #### **Monolito vs Microservicios**
+
 | **Aspecto** | **Monolito** | **Microservicios** |
 |---|---|---|
 | **Complejidad inicial** | Baja | Alta |
@@ -633,6 +676,7 @@ services:
 | **Debugging** | Más fácil | Más complejo |
 
 #### **Event-Driven Patterns**
+
 ```python
 # Example: Event Publishing Pattern
 class OrderService:
@@ -653,6 +697,7 @@ class OrderService:
 ```
 
 #### **Repository Pattern**
+
 ```python
 # Abstract Repository
 from abc import ABC, abstractmethod
@@ -899,6 +944,7 @@ Framework completo de testing automatizado con templates, herramientas CI/CD y b
 ### 🛠️ Templates y Herramientas
 
 #### **Frontend Testing**
+
 ```yaml
 # .github/workflows/frontend-tests.yml
 name: Frontend Tests
@@ -919,6 +965,7 @@ jobs:
 ```
 
 #### **Backend API Testing**
+
 ```yaml
 # .github/workflows/api-tests.yml
 name: API Tests
@@ -957,6 +1004,7 @@ jobs:
 ### 📚 Templates de Configuración
 
 #### **Jest + React Testing Library**
+
 ```javascript
 // jest.config.js
 module.exports = {
@@ -982,6 +1030,7 @@ module.exports = {
 ```
 
 #### **Cypress Configuration**
+
 ```javascript
 // cypress.config.js
 const { defineConfig } = require('cypress');
