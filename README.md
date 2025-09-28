@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Biblioteca de Conocimientos
 
 Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemplos para backend, frontend, bases de datos, DevOps y testing. Está organizada en secciones que puedes usar como guía de estudio o referencia rápida.
@@ -7,66 +6,33 @@ Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemp
 
 ## Tabla de Contenidos
 
-### 🧠 Fundamentos de Desarrollo
-1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [�️ Bases de Datos Relacionales](#️-2-bases-de-datos-relacionales)
-3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
-4. [🎨 Frontend Moderno](#-4-frontend-moderno)
+### Fundamentos de Desarrollo
+1. [Lenguajes de Programación](#1-lenguajes-de-programación)
+2. [Bases de Datos Relacionales](#2-bases-de-datos-relacionales)
+3. [Desarrollo de APIs](#3-desarrollo-de-apis)
+4. [Frontend Moderno](#4-frontend-moderno)
 
-### ☁️ Infraestructura y Despliegue
-5. [☁️ Principales Servicios en la Nube](#️-5-principales-servicios-en-la-nube)
-6. [📦 Contenedores y Orquestación](#-6-contenedores-y-orquestación)
-7. [🔁 Integración Full-Stack](#-7-integración-full-stack)
-8. [⚙️ DevOps y Flujo de Trabajo](#️-8-devops-y-flujo-de-trabajo)
+### Infraestructura y Despliegue
+5. [Principales Servicios en la Nube](#5-principales-servicios-en-la-nube)
+6. [Contenedores y Orquestación](#6-contenedores-y-orquestación)
+7. [Integración Full-Stack](#7-integración-full-stack)
+8. [DevOps y Flujo de Trabajo](#8-devops-y-flujo-de-trabajo)
 
-### 🧪 Testing y Calidad
-9. [🧪 Testing con Herramientas Modernas](#-9-testing-con-herramientas-modernas)
-10. [✅ Pruebas y Calidad de Código](#-10-pruebas-y-calidad-de-código)
+### Testing y Calidad
+9. [Testing con Herramientas Modernas](#9-testing-con-herramientas-modernas)
+10. [Pruebas y Calidad de Código](#10-pruebas-y-calidad-de-código)
 
-### 🚀 Temas Avanzados
-11. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-11-temas-avanzados-web3-y-smart-contracts)  
-12. [🛠️ Herramientas para Desarrollar](#️-12-herramientas-para-desarrollar)
-
----
-
-=======
-# Biblioteca Personal: Tu Ruta de Aprendizaje Técnico
-
-Este repositorio funciona como un libro de consulta interactivo, donde cada capítulo recoge los temas que has estudiado. Aquí podrás explorar, profundizar y repasar conceptos de programación, bases de datos, frontend, backend, DevOps y prácticas de productividad.
+### Temas Avanzados
+11. [Temas Avanzados: Web3 y Smart Contracts](#11-temas-avanzados-web3-y-smart-contracts)  
+12. [Herramientas para Desarrollar](#12-herramientas-para-desarrollar)
 
 ---
 
-## Tabla de Contenidos
-
-### 🧠 Fundamentos de Desarrollo
-1. [🧠 Lenguajes de Programación](#-1-lenguajes-de-programación)
-2. [🗃️ Bases de Datos: Relacionales y NoSQL](#️-2-bases-de-datos-relacionales-y-nosql)
-3. [🔌 Desarrollo de APIs](#-3-desarrollo-de-apis)
-4. [🔧 Backend y Arquitectura de Servicios](#-4-backend-y-arquitectura-de-servicios)
-5. [🎨 Frontend Moderno](#-5-frontend-moderno)
-
-### ☁️ Infraestructura y Despliegue
-6. [☁️ Principales Servicios en la Nube](#️-6-principales-servicios-en-la-nube)
-7. [📦 Contenedores y Orquestación](#-7-contenedores-y-orquestación)
-8. [🔁 Integración Full-Stack](#-8-integración-full-stack)
-9. [⚙️ DevOps y Flujo de Trabajo](#️-9-devops-y-flujo-de-trabajo)
-
-### 🧪 Testing y Calidad
-10. [🧪 Testing con Herramientas Modernas](#-10-testing-con-herramientas-modernas)
-11. [✅ Pruebas y Calidad de Código](#-11-pruebas-y-calidad-de-código)
-
-### 🚀 Temas Avanzados
-12. [🧬 Temas Avanzados: Web3 y Smart Contracts](#-12-temas-avanzados-web3-y-smart-contracts)  
-13. [🛠️ Herramientas para Desarrollar](#️-13-herramientas-para-desarrollar)
->>>>>>> a3472c0e1a50234fdafac895e1595c18d90336c2
-
----
-
-## 🧠 1 Lenguajes de Programación
+## 1 Lenguajes de Programación
 
 Fundamentos esenciales para escribir código robusto y escalable en diferentes ecosistemas tecnológicos. Estos lenguajes forman la base para el desarrollo moderno de aplicaciones web, APIs y sistemas distribuidos.
 
-### 🔍 Conceptos Fundamentales
+### Conceptos Fundamentales
 
 - **Python: Ecosistema Completo**  
   Sintaxis clara, programación orientada a objetos, gestión de módulos y paquetes.  
@@ -80,7 +46,11 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
   Sistema de tipos estático, interfaces, generics y compatibilidad con ecosistema JS.  
   → [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 
-### 🛠️ Herramientas y Frameworks
+- **C#: Desarrollo en el ecosistema .NET**  
+  Lenguaje moderno, tipado estático y orientado a objetos, ideal para APIs, servicios y aplicaciones de escritorio; soporta async/await y un amplio ecosistema de librerías y herramientas.  
+  → [Documentación Oficial de C#](https://learn.microsoft.com/dotnet/csharp/)
+
+### Herramientas y Frameworks
 
 - **Python**  
   FastAPI para APIs modernas, Django para aplicaciones web completas, pandas para análisis de datos.  
@@ -94,160 +64,41 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
   VS Code con extensiones específicas, gestión de versiones con pyenv/nvm, contenedores para desarrollo.  
   → [VS Code](https://code.visualstudio.com/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+- **.NET / C#**  
+  ASP.NET Core para APIs y aplicaciones web, Entity Framework Core para acceso a datos y migraciones, .NET MAUI para apps multiplataforma.  
+  → [ASP.NET Core](https://learn.microsoft.com/aspnet/core/)
+
+### Buenas Prácticas y Aplicaciones
 
 - **Arquitectura de Código**: Separación de responsabilidades (MVC), principios SOLID, patrones de diseño
 - **Gestión de Errores**: Manejo de excepciones, logging estructurado, códigos de error HTTP apropiados
 - **Performance**: Optimización de memoria, operaciones asíncronas, cache estratégico
 - **Seguridad**: Validación de inputs, sanitización de datos, gestión segura de secretos
+- **C#**: Emplear Dependency Injection nativo en ASP.NET Core, usar analizadores y Roslyn para chequeos estáticos, preferir tipos inmutables y patrones que reduzcan el acoplamiento; versionar paquetes NuGet con semver.
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [Real Python - Tutoriales Avanzados](https://realpython.com/)
 - [JavaScript.info - Guía Completa](https://javascript.info/)
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 - [Python Software Foundation](https://www.python.org/about/apps/)
+- [Documentación Oficial de C# y .NET](https://learn.microsoft.com/dotnet/)
 
-#### 🧩 Integración con Otros Temas — Conexiones
+#### Integración con Otros Temas — Conexiones
 
 - **APIs**: Fundamento para desarrollo de servicios RESTful y GraphQL
 - **Bases de Datos**: ORMs y conectores nativos para integración con SQL/NoSQL
 - **Frontend**: JavaScript como puente para aplicaciones full-stack
 - **DevOps**: Scripts de automatización y herramientas de CI/CD
+- **C#/.NET**: Integración con EF Core para bases de datos relacionales, despliegue en Azure App Service o contenedores y posibilidad de frontend con Blazor para aplicaciones interactivas.
 
 ---
 
-## ☁️ 6 Principales Servicios en la Nube
-
-Infraestructura escalable y servicios administrados para el desarrollo moderno. Aprovecha la computación en la nube para desplegar, escalar y mantener aplicaciones de forma eficiente y rentable.
-
-### 🔍 Conceptos Fundamentales
-
-- **Amazon Web Services (AWS)**  
-  EC2, S3, RDS, Lambda, ECS. Ecosistema completo para aplicaciones empresariales.  
-  → [Comparativa de proveedores cloud (Tridens)](https://tridens.io/) | [AWS Documentation](https://docs.aws.amazon.com/)
-
-- **Microsoft Azure**  
-  App Service, Azure Functions, Cosmos DB, Container Instances. Integración con ecosistema Microsoft.  
-  → [Azure Documentation](https://docs.microsoft.com/azure/)
-
-- **Google Cloud Platform (GCP)**  
-  Compute Engine, Cloud Functions, Firestore, Cloud Run. Enfoque en machine learning y analytics.  
-  → [Google Cloud Docs](https://cloud.google.com/docs)
-
-- **Tipos de Servicios Cloud**  
-  IaaS (Infrastructure), PaaS (Platform), SaaS (Software). Modelos de servicio y ejemplos prácticos.  
-  → [Tipos de servicios: IaaS, PaaS, SaaS (Red Hat)](https://www.redhat.com/en/topics/cloud-computing/iaas-vs-paas-vs-saas)
-
-### 🛠️ Herramientas y Frameworks
-
-- **Contenedores en la Nube**  
-  Docker Hub, Amazon ECR, Google Container Registry para distribución de imágenes.  
-  → [Docker Hub](https://hub.docker.com/)
-
-- **Bases de Datos como Servicio**  
-  AWS RDS, Azure SQL, Google Cloud SQL, MongoDB Atlas, PlanetScale.  
-  → [MongoDB Atlas](https://www.mongodb.com/atlas)
-
-- **Servicios de Autenticación**  
-  AWS Cognito, Firebase Auth, Auth0, Azure AD B2C.  
-  → [Firebase Auth](https://firebase.google.com/docs/auth)
-
-- **Otros Proveedores Cloud**  
-  Oracle Cloud, IBM Cloud, DigitalOcean para casos específicos y startups.  
-  → [DigitalOcean](https://docs.digitalocean.com/)
-
-### ⚙️ Buenas Prácticas y Aplicaciones
-
-- **Arquitectura Sin Servidor**: Lambda functions, Cloud Functions, optimización de costos por uso
-- **Escalabilidad Automática**: Auto Scaling Groups, load balancers, distribución geográfica
-- **Seguridad en la Nube**: IAM roles, VPC networks, certificados SSL/TLS automatizados
-- **Monitoreo y Observabilidad**: CloudWatch, Azure Monitor, Stackdriver para métricas en tiempo real
-
-### 📚 Recursos Recomendados
-
-- [Comparativa de proveedores cloud (Tridens)](https://tridens.io/)
-- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
-- [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
-- [Google Cloud Architecture Center](https://cloud.google.com/architecture)
-
-### 🧩 Integración con Otros Temas
-
-- **DevOps**: CI/CD pipelines nativos en la nube (GitHub Actions, Azure DevOps)
-- **Contenedores**: Orquestación con Kubernetes en EKS, AKS, GKE
-- **APIs**: Despliegue serverless de microservicios y funciones
-- **Frontend**: CDN y edge computing para optimización de performance
-
----
-
-## 📦 7 Contenedores y Orquestación
-
-Tecnologías para empaquetar, distribuir y gestionar aplicaciones de forma consistente y escalable en cualquier entorno.
-
-### 🔍 Conceptos Fundamentales
-
-- **Docker: Containerización**  
-  Imágenes, contenedores, Dockerfile, registries, volúmenes y redes.  
-  → [Docker Documentation](https://docs.docker.com/) | [Introducción a Kubernetes y orquestación (IBM)](https://www.ibm.com/cloud/learn/kubernetes)
-
-- **Docker Compose: Orquestación Local**  
-  Servicios multi-container, variables de entorno, dependencias entre servicios.  
-  → [Docker Compose](https://docs.docker.com/compose/)
-
-- **Kubernetes: Orquestación en Producción**  
-  Pods, Services, Deployments, ConfigMaps, Secrets, Ingress controllers. Ciclo de vida, YAML, clústeres, plano de control.  
-  → [Kubernetes Documentation](https://kubernetes.io/docs/)
-
-- **Contenerización vs VMs**  
-  Comparación técnica entre Docker, Kubernetes, Nomad, Mesos para diferentes casos de uso.  
-  → [Contenerización vs VMs (Stackscale)](https://www.stackscale.com/)
-
-### 🛠️ Herramientas y Frameworks
-
-- **Herramientas de Desarrollo**  
-  Docker Desktop, Podman, containerd para gestión local de contenedores.  
-  → [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-
-- **Registries de Contenedores**  
-  Docker Hub, Amazon ECR, Google Container Registry, GitHub Container Registry.  
-  → [GitHub Packages](https://docs.github.com/packages)
-
-- **Orquestadores Cloud-Native**  
-  Amazon EKS, Azure AKS, Google GKE, Red Hat OpenShift.  
-  → [Amazon EKS](https://docs.aws.amazon.com/eks/)
-
-- **Herramientas de Gestión**  
-  Helm para gestión de aplicaciones Kubernetes, Terraform para infraestructura como código.  
-  → [Helm](https://helm.sh/docs/)
-
-### ⚙️ Buenas Prácticas y Aplicaciones
-
-- **Construcción de Imágenes**: Multi-stage builds, optimización de capas, security scanning
-- **Persistencia de Datos**: Volumes, persistent volumes, backups automatizados
-- **Networking**: Service mesh, load balancing, SSL termination
-- **Monitoreo**: Prometheus, Grafana, logging centralizado con ELK stack
-
-### 📚 Recursos Recomendados
-
-- [Docker Best Practices](https://docs.docker.com/develop/dev-best-practices/)
-- [Kubernetes Learning Path](https://kubernetes.io/training/)
-- [CNCF Landscape](https://landscape.cncf.io/)
-- [Container Security Guide](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
-
-### 🧩 Integración con Otros Temas
-
-- **DevOps**: Pipelines CI/CD con construcción y despliegue automatizado de contenedores
-- **Servicios en la Nube**: Integración nativa con servicios administrados
-- **Bases de Datos**: Contenedores para desarrollo, servicios administrados para producción
-- **APIs**: Microservicios containerizados para arquitecturas distribuidas
-
----
-
-## 🗃️ 2 Bases de Datos: Relacionales y NoSQL
+## 2 Bases de Datos Relacionales
 
 Ecosistema completo de almacenamiento de datos, desde bases relacionales tradicionales hasta sistemas NoSQL modernos, con estrategias de diseño, optimización y escalabilidad.
 
-### 🔍 Conceptos Fundamentales
+### Conceptos Fundamentales
 
 #### **Bases de Datos Relacionales (SQL)**
 - **PostgreSQL: Producción Robusta**  
@@ -296,7 +147,7 @@ Ecosistema completo de almacenamiento de datos, desde bases relacionales tradici
   Cypher query language, graph algorithms, social networks, recommendation systems.  
   → [Neo4j Documentation](https://neo4j.com/docs/) | [Graph Academy](https://graphacademy.neo4j.com/)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 #### **ORMs y Query Builders**
 
@@ -376,7 +227,7 @@ volumes:
   redis_data:
 ```
 
-### ⚙️ Patrones y Estrategias de Diseño
+### Patrones y Estrategias de Diseño
 
 #### **Diseño Relacional vs NoSQL**
 
@@ -517,31 +368,16 @@ def downgrade():
 - [Redis University](https://university.redis.com/)
 - [AWS Database Training](https://aws.amazon.com/training/learn-about/databases/)
 
-### 🧩 Integración con Otros Temas
-
-- **APIs**: Database connections, ORM integration, query optimization para endpoints
-- **Backend**: Repository patterns, data access layers, transaction management
-- **Contenedores**: Database containers, persistent volumes, orchestration con Kubernetes
-- **DevOps**: Database migrations en CI/CD, environment management, monitoring y alerting
-- **Testing**: Database testing, test data management, integration testing
-- **Servicios en la Nube**: Managed databases, auto-scaling, backup automation
-<<<<<<< HEAD
-- [PostgreSQL: Up and Running](https://www.oreilly.com/library/view/postgresql-up-and/9781491963417/)
-- [MongoDB University](https://university.mongodb.com/)
-
- 
-**🧩 Integración con Otros Temas**
+### Integración con Otros Temas
 
 - **APIs**: Endpoints CRUD, paginación, filtros avanzados, caching de queries
 - **Contenedores**: Databases en Docker, persistent volumes, orchestración con Kubernetes
 - **DevOps**: Database migrations en CI/CD, environment management, monitoring
 - **Frontend**: Real-time subscriptions, optimistic updates, offline sync
-=======
->>>>>>> a3472c0e1a50234fdafac895e1595c18d90336c2
 
 ---
 
-## 🔌 3 Desarrollo de APIs
+## 3 Desarrollo de APIs
 
 Construcción de servicios web escalables, seguros y bien documentados que forman la columna vertebral de aplicaciones modernas.
 
@@ -563,7 +399,7 @@ Construcción de servicios web escalables, seguros y bien documentados que forma
   Schema definition, resolvers, queries/mutations, real-time subscriptions.  
   → [GraphQL Documentation](https://graphql.org/learn/)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Autenticación y Autorización**  
   JWT tokens, OAuth2, RBAC, Auth0, Firebase Auth para gestión de usuarios.  
@@ -577,21 +413,21 @@ Construcción de servicios web escalables, seguros y bien documentados que forma
   Supertest, pytest-httpx, Insomnia, contract testing con Pact.  
   → [Supertest](https://github.com/ladjs/supertest) | [Pact](https://docs.pact.io/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **API Security**: Rate limiting, CORS configuration, input validation, API keys management
 - **Performance**: Response caching, database optimization, async processing, pagination
 - **Error Handling**: Consistent error responses, logging, monitoring, circuit breakers
 - **API Gateway**: Load balancing, API composition, security policies, analytics
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [Building APIs with Node.js](https://www.manning.com/books/api-design-patterns)
 - [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices)
 - [RESTful Web APIs](https://www.oreilly.com/library/view/restful-web-apis/9781449359713/)
 - [API Security Best Practices](https://owasp.org/www-project-api-security/)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **Frontend**: API consumption, error handling, loading states, optimistic updates
 - **Bases de Datos**: ORM integration, query optimization, transaction management
@@ -600,7 +436,7 @@ Construcción de servicios web escalables, seguros y bien documentados que forma
 
 ---
 
-## 🔧 4 Backend y Arquitectura de Servicios
+## 4 Backend y Arquitectura de Servicios
 
 Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones modernos y mejores prácticas para sistemas distribuidos.
 
@@ -622,7 +458,7 @@ Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones
   Redis, Memcached, application-level caching, distributed caching y cache invalidation.  
   → [Redis Documentation](https://redis.io/documentation) | [Caching Best Practices](https://docs.microsoft.com/azure/architecture/best-practices/caching)
 
-### 🛠️ Frameworks y Herramientas Backend
+### Frameworks y Herramientas Backend
 
 #### **Python Ecosystem**
 - **Django**: Full-featured framework, ORM, admin panel, batteries included
@@ -640,6 +476,11 @@ Diseño de arquitecturas backend robustas, escalables y mantenibles con patrones
 - **Spring Boot**: Enterprise framework, dependency injection, auto-configuration
 - **Quarkus**: Cloud-native Java, fast startup, low memory footprint
 - **Micronaut**: Microservices framework, compile-time DI, GraalVM support
+
+#### **.NET / C# Ecosystem**
+- **ASP.NET Core**: Framework para construir APIs y aplicaciones web modernas
+- **Entity Framework Core**: ORM para .NET, soporte para migraciones y consultas LINQ
+- **Blazor**: Framework para construir aplicaciones web interactivas con C# en lugar de JavaScript
 
 #### **Message Brokers y Queues**
 
@@ -662,7 +503,7 @@ services:
       RABBITMQ_DEFAULT_PASS: dev123
 ```
 
-### ⚙️ Patrones y Arquitecturas
+### Patrones y Arquitecturas
 
 #### **Monolito vs Microservicios**
 
@@ -733,14 +574,14 @@ class SQLUserRepository(UserRepository):
 - **Monitoring**: APM tools, metrics collection, distributed tracing, health checks
 - **Logging**: Structured logging, centralized logs, correlation IDs
 
-### 📚 Recursos Especializados
+### Recursos Especializados
 
 - [Building Microservices - Sam Newman](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/)
 - [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html)
 - [Domain-Driven Design - Eric Evans](https://www.domainlanguage.com/ddd/)
 - [Clean Architecture - Robert Martin](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **APIs**: Implementation layer, business logic, data access patterns
 - **Bases de Datos**: Connection pooling, transaction management, data modeling
@@ -750,7 +591,7 @@ class SQLUserRepository(UserRepository):
 
 ---
 
-## 🎨 5 Frontend Moderno
+## 5 Frontend Moderno
 
 Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen experiencias de usuario excepcionales en la web moderna.
 
@@ -768,7 +609,7 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
   Type safety, interfaces para props, generic components, integration con frameworks.  
   → [TypeScript React](https://www.typescriptlang.org/docs/handbook/react.html)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **UI Component Libraries**  
   Material-UI (React), Ant Design, Vuetify (Vue), Headless UI para customización.  
@@ -786,21 +627,21 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
   Jest, React Testing Library, Cypress, Playwright para E2E testing.  
   → [Testing Library](https://testing-library.com/) | [Cypress](https://docs.cypress.io/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Performance Optimization**: Code splitting, lazy loading, image optimization, Core Web Vitals
 - **State Management**: Local vs global state, immutability, optimistic updates
 - **Accessibility**: ARIA labels, keyboard navigation, screen reader compatibility
 - **PWA Features**: Service workers, offline functionality, push notifications
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 - [Vue.js Guide](https://vuejs.org/tutorial/)
 - [Frontend Masters Courses](https://frontendmasters.com/)
 - [Web.dev by Google](https://web.dev/)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **APIs**: HTTP clients (Axios, fetch), error handling, loading states, caching
 - **DevOps**: Build optimization, deployment strategies, CDN integration
@@ -809,7 +650,7 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
 
 ---
 
-## 🔁 8 Integración Full-Stack
+## 8 Integración Full-Stack
 
 Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistema completo y escalable.
 
@@ -827,7 +668,7 @@ Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistem
   JWT storage strategies, refresh tokens, session management, security headers.  
   → [Auth Best Practices](https://auth0.com/blog/a-complete-guide-to-cookies-in-javascript/)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Meta-Frameworks**  
   Next.js (React), Nuxt.js (Vue), SvelteKit, Remix para SSR/SSG.  
@@ -841,21 +682,21 @@ Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistem
   Docker Compose, Vagrant, devcontainers para ambientes reproducibles.  
   → [Docker Compose](https://docs.docker.com/compose/) | [Dev Containers](https://containers.dev/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Data Flow**: Estado global sincronizado, optimistic updates, conflict resolution
 - **Performance**: Code splitting, lazy loading, caching strategies, CDN optimization
 - **Security**: Input sanitization, XSS prevention, CSRF protection, secure headers
 - **Testing Integration**: End-to-end testing, contract testing, staging environments
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [Full Stack Open (University of Helsinki)](https://fullstackopen.com/)
 - [The Complete Developer](https://zerotomastery.io/courses/coding-bootcamp/)
 - [Full Stack Web Development with React](https://www.coursera.org/learn/full-stack-react)
 - [Modern Full-Stack Development](https://www.oreilly.com/library/view/modern-full-stack-development/9781484266885/)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **DevOps**: CI/CD pipelines, environment management, deployment strategies
 - **Contenedores**: Multi-service orchestration, service discovery, health checks
@@ -864,7 +705,7 @@ Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistem
 
 ---
 
-## ⚙️ 9 DevOps y Flujo de Trabajo
+## 9 DevOps y Flujo de Trabajo
 
 Automatización, versionado y despliegue continuo para entregar software de calidad con confianza y eficiencia.
 
@@ -882,7 +723,7 @@ Automatización, versionado y despliegue continuo para entregar software de cali
   Terraform, CloudFormation, Ansible, configuration management, immutable infrastructure.  
   → [Terraform](https://developer.hashicorp.com/terraform/docs) | [Ansible](https://docs.ansible.com/)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Containerization & Orchestration**  
   Docker, Kubernetes, Helm charts, container registries, service mesh.  
@@ -896,21 +737,21 @@ Automatización, versionado y despliegue continuo para entregar software de cali
   SonarQube, CodeClimate, Snyk, SAST/DAST tools, dependency scanning.  
   → [SonarQube](https://docs.sonarqube.org/) | [Snyk](https://docs.snyk.io/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Deployment Strategies**: Blue-green, canary releases, rolling updates, feature flags
 - **Environment Management**: Dev/staging/prod parity, configuration management, secrets handling
 - **Backup & Recovery**: Automated backups, disaster recovery plans, RTO/RPO targets
 - **Security Integration**: DevSecOps practices, vulnerability scanning, compliance automation
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [The DevOps Handbook](https://itrevolution.com/book/the-devops-handbook/)
 - [Site Reliability Engineering - Google](https://sre.google/books/)
 - [Continuous Delivery](https://martinfowler.com/books/continuousDelivery.html)
 - [DevOps Roadmap](https://roadmap.sh/devops)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **Contenedores**: Container orchestration, microservices deployment, service discovery
 - **Servicios en la Nube**: Cloud-native CI/CD, managed services integration, auto-scaling
@@ -919,7 +760,7 @@ Automatización, versionado y despliegue continuo para entregar software de cali
 
 ---
 
-## 🧪 10 Testing con Herramientas Modernas
+## 10 Testing con Herramientas Modernas
 
 Framework completo de testing automatizado con templates, herramientas CI/CD y buenas prácticas de seguridad para desarrollo moderno.
 
@@ -941,7 +782,7 @@ Framework completo de testing automatizado con templates, herramientas CI/CD y b
   Vulnerability scanning, secrets management in tests, secure test environments.  
   → [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 
-### 🛠️ Templates y Herramientas
+### Templates y Herramientas
 
 #### **Frontend Testing**
 
@@ -990,7 +831,7 @@ jobs:
       - run: pytest tests/ --cov=app --cov-report=xml
 ```
 
-### ⚙️ Comparativas de Herramientas
+### Comparativas de Herramientas
 
 | **Herramienta** | **Características Clave** | **Ideal Para** | **Backend/Frontend** |
 |---|---|---|---|
@@ -1001,75 +842,21 @@ jobs:
 | **Postman/Newman** | Collection runner, environment variables | API testing, documentation | Backend |
 | **Testcontainers** | Real database testing, service isolation | Integration tests, microservices | Backend |
 
-### 📚 Templates de Configuración
-
-#### **Jest + React Testing Library**
-
-```javascript
-// jest.config.js
-module.exports = {
-  testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
-  moduleNameMapping: {
-    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
-  },
-  collectCoverageFrom: [
-    'src/**/*.{js,jsx,ts,tsx}',
-    '!src/index.js',
-    '!src/reportWebVitals.js',
-  ],
-  coverageThreshold: {
-    global: {
-      branches: 80,
-      functions: 80,
-      lines: 80,
-      statements: 80,
-    },
-  },
-};
-```
-
-#### **Cypress Configuration**
-
-```javascript
-// cypress.config.js
-const { defineConfig } = require('cypress');
-
-module.exports = defineConfig({
-  e2e: {
-    baseUrl: 'http://localhost:3000',
-    supportFile: 'cypress/support/e2e.js',
-    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
-    video: true,
-    screenshotOnRunFailure: true,
-    env: {
-      coverage: true,
-    },
-  },
-  component: {
-    devServer: {
-      framework: 'react',
-      bundler: 'vite',
-    },
-  },
-});
-```
-
-### 🔒 Buenas Prácticas de Seguridad
+### Buenas Prácticas de Seguridad
 
 - **Secrets Management**: Uso de GitHub Secrets, variables de entorno seguras
 - **Test Data**: Datos sintéticos, anonimización, cleanup automático
 - **Environment Isolation**: Contenedores de testing, network policies
 - **Dependency Scanning**: Audit de dependencias de testing, updates automatizados
 
-### 📚 Recursos y Documentación
+### Recursos y Documentación
 
 - [Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 - [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app)
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
 - [GitHub Actions Examples](https://github.com/actions/example-services)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **DevOps**: Automated testing pipelines, deployment gates, quality metrics
 - **Frontend**: Component testing, visual regression, accessibility testing
@@ -1078,7 +865,7 @@ module.exports = defineConfig({
 
 ---
 
-## ✅ 11 Pruebas y Calidad de Código
+## 11 Pruebas y Calidad de Código
 
 Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelencia en el desarrollo de software.
 
@@ -1096,7 +883,7 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
   Code coverage, cyclomatic complexity, maintainability index, technical debt.  
   → [Code Quality Metrics](https://blog.codacy.com/what-is-code-quality-and-how-to-measure-it)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Linting y Formateo**  
   ESLint, Prettier, Black (Python), automated code formatting, pre-commit hooks.  
@@ -1110,21 +897,21 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
   SonarQube, CodeClimate, quality metrics integration en CI/CD.  
   → [SonarQube](https://docs.sonarqube.org/) | [CodeClimate](https://docs.codeclimate.com/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Test Strategy**: Arrange-Act-Assert pattern, mocking strategies, test data management
 - **Code Reviews**: Pull request guidelines, review checklists, automated checks
 - **Continuous Testing**: Shift-left testing, automated regression testing, performance testing
 - **Quality Culture**: Code ownership, pair programming, refactoring practices
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [Clean Code by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350884)
 - [Test-Driven Development by Kent Beck](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 - [Effective Software Testing](https://www.manning.com/books/effective-software-testing)
 - [Testing JavaScript Applications](https://www.manning.com/books/testing-javascript-applications)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **APIs**: API testing, contract testing, load testing, security testing
 - **Frontend**: Component testing, visual regression testing, accessibility testing
@@ -1133,7 +920,7 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
 
 ---
 
-## 🧬 12 Temas Avanzados: Web3 y Smart Contracts
+## 12 Temas Avanzados: Web3 y Smart Contracts
 
 Exploración de la tecnología blockchain, contratos inteligentes y el ecosistema descentralizado para el futuro de las aplicaciones web.
 
@@ -1151,7 +938,7 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
   Wallets (MetaMask), Web3.js, Ethers.js, conexión blockchain desde frontend.  
   → [Web3.js](https://web3js.readthedocs.io/) | [Ethers.js](https://docs.ethers.org/)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **Remix IDE: Entorno de Desarrollo**  
   IDE web completo para desarrollo, testing y deployment de smart contracts.  
@@ -1165,21 +952,21 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
   Testnets (Sepolia, Goerli), Ganache para blockchain local, OpenZeppelin para contratos seguros.  
   → [OpenZeppelin](https://docs.openzeppelin.com/) | [Ganache](https://trufflesuite.com/ganache/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Seguridad de Smart Contracts**: Reentrancy protection, access control, integer overflow prevention
 - **Gas Optimization**: Efficient data structures, batch operations, upgrade patterns
 - **Testing Strategies**: Unit testing, integration testing, fork testing, fuzzing
 - **Audit Practices**: Code reviews, security audits, formal verification, bug bounties
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 - [Solidity Documentation](https://docs.soliditylang.org/)
 - [Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [DeFi Developer Roadmap](https://github.com/OffcierCia/DeFi-Developer-Road-Map)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **Frontend**: DApp development, wallet integration, blockchain state management
 - **APIs**: Oracle integration, off-chain data, hybrid architectures
@@ -1188,7 +975,7 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
 
 ---
 
-## 🛠️ 13 Herramientas para Desarrollar
+## 13 Herramientas para Desarrollar
 
 Ecosistema completo de herramientas modernas para optimizar productividad, colaboración y entrega de software de calidad.
 
@@ -1206,7 +993,7 @@ Ecosistema completo de herramientas modernas para optimizar productividad, colab
   PostgreSQL managed, real-time subscriptions, edge functions, authentication.  
   → [Supabase Documentation](https://supabase.com/docs)
 
-### 🛠️ Herramientas y Frameworks
+### Herramientas y Frameworks
 
 - **IDEs y Editores**  
   VS Code extensions, JetBrains IDEs, Vim/Neovim, configuración productiva.  
@@ -1224,21 +1011,21 @@ Ecosistema completo de herramientas modernas para optimizar productividad, colab
   Postman, Insomnia, Thunder Client, mock servers, automated testing.  
   → [Postman](https://learning.postman.com/) | [Insomnia](https://docs.insomnia.rest/)
 
-### ⚙️ Buenas Prácticas y Aplicaciones
+### Buenas Prácticas y Aplicaciones
 
 - **Environment Setup**: Dotfiles, shell configuration, package managers (brew, chocolatey)
 - **Productivity Workflow**: Keyboard shortcuts, snippet management, automation scripts
 - **Team Collaboration**: Code reviews, documentation standards, knowledge sharing
 - **Security Practices**: Secrets management, API key rotation, secure development practices
 
-### 📚 Recursos Recomendados
+### Recursos Recomendados
 
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 - [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - [GitHub Skills](https://skills.github.com/)
 - [Firebase Codelabs](https://firebase.google.com/docs/codelabs)
 
-### 🧩 Integración con Otros Temas
+### Integración con Otros Temas
 
 - **Full-Stack**: BaaS integration, serverless functions, real-time features
 - **DevOps**: Cloud development environments, automated deployment pipelines
