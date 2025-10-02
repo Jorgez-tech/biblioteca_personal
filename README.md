@@ -8,19 +8,19 @@ Este repositorio es una biblioteca de consulta técnica: notas, patrones y ejemp
 
 ### Fundamentos de Desarrollo
 1. [Lenguajes de Programación](#1-lenguajes-de-programación)
-2. [Bases de Datos Relacionales](#2-bases-de-datos-relacionales)
+2. [Bases de Datos: SQL y NoSQL](#2-bases-de-datos-sql-y-nosql)
 3. [Desarrollo de APIs](#3-desarrollo-de-apis)
-4. [Frontend Moderno](#4-frontend-moderno)
+4. [Backend y Arquitectura de Servicios](#4-backend-y-arquitectura-de-servicios)
+5. [Frontend Moderno](#5-frontend-moderno)
 
 ### Infraestructura y Despliegue
-5. [Principales Servicios en la Nube](#5-principales-servicios-en-la-nube)
-6. [Contenedores y Orquestación](#6-contenedores-y-orquestación)
-7. [Integración Full-Stack](#7-integración-full-stack)
-8. [DevOps y Flujo de Trabajo](#8-devops-y-flujo-de-trabajo)
+6. [Principales Servicios en la Nube](#6-principales-servicios-en-la-nube)
+7. [Contenedores y Orquestación](#7-contenedores-y-orquestación)
+8. [Integración Full-Stack](#8-integración-full-stack)
+9. [DevOps y Flujo de Trabajo](#9-devops-y-flujo-de-trabajo)
 
 ### Testing y Calidad
-9. [Testing con Herramientas Modernas](#9-testing-con-herramientas-modernas)
-10. [Pruebas y Calidad de Código](#10-pruebas-y-calidad-de-código)
+10. [Testing y Calidad de Código](#10-testing-y-calidad-de-código)
 
 ### Temas Avanzados
 11. [Temas Avanzados: Web3 y Smart Contracts](#11-temas-avanzados-web3-y-smart-contracts)  
@@ -94,7 +94,7 @@ Fundamentos esenciales para escribir código robusto y escalable en diferentes e
 
 ---
 
-## 2 Bases de Datos Relacionales
+## 2 Bases de Datos: SQL y NoSQL
 
 Ecosistema completo de almacenamiento de datos, desde bases relacionales tradicionales hasta sistemas NoSQL modernos, con estrategias de diseño, optimización y escalabilidad.
 
@@ -650,6 +650,423 @@ Desarrollo de interfaces dinámicas, responsivas y performantes que ofrecen expe
 
 ---
 
+## 6 Principales Servicios en la Nube
+
+Plataformas cloud que permiten desplegar, escalar y gestionar aplicaciones modernas con servicios administrados y arquitecturas serverless.
+
+### 🔍 Conceptos Fundamentales
+
+- **Amazon Web Services (AWS)**  
+  EC2, S3, Lambda, RDS, DynamoDB, API Gateway, CloudFormation para infraestructura completa.  
+  → [AWS Documentation](https://docs.aws.amazon.com/) | [AWS Free Tier](https://aws.amazon.com/free/)
+
+- **Microsoft Azure**  
+  App Service, Azure Functions, Cosmos DB, Azure SQL, Blob Storage, Azure DevOps.  
+  → [Azure Documentation](https://docs.microsoft.com/azure/) | [Azure Portal](https://portal.azure.com/)
+
+- **Google Cloud Platform (GCP)**  
+  Compute Engine, Cloud Functions, Cloud Run, Firestore, BigQuery, Cloud Storage.  
+  → [GCP Documentation](https://cloud.google.com/docs) | [GCP Console](https://console.cloud.google.com/)
+
+### Servicios Principales
+
+#### **Compute Services**
+- **Virtual Machines**: EC2 (AWS), Azure VMs, Compute Engine (GCP)
+- **Serverless Functions**: Lambda (AWS), Azure Functions, Cloud Functions (GCP)
+- **Container Services**: ECS/EKS (AWS), AKS (Azure), GKE (GCP)
+- **Platform as a Service**: Elastic Beanstalk (AWS), App Service (Azure), Cloud Run (GCP)
+
+#### **Storage Services**
+- **Object Storage**: S3 (AWS), Blob Storage (Azure), Cloud Storage (GCP)
+- **Block Storage**: EBS (AWS), Managed Disks (Azure), Persistent Disks (GCP)
+- **File Storage**: EFS (AWS), Azure Files, Filestore (GCP)
+
+#### **Database Services**
+- **Relational**: RDS (AWS), Azure SQL Database, Cloud SQL (GCP)
+- **NoSQL**: DynamoDB (AWS), Cosmos DB (Azure), Firestore (GCP)
+- **Data Warehouse**: Redshift (AWS), Synapse Analytics (Azure), BigQuery (GCP)
+- **Cache**: ElastiCache (AWS), Azure Cache for Redis, Memorystore (GCP)
+
+#### **Networking & CDN**
+- **Load Balancing**: ELB/ALB (AWS), Azure Load Balancer, Cloud Load Balancing (GCP)
+- **CDN**: CloudFront (AWS), Azure CDN, Cloud CDN (GCP)
+- **DNS**: Route 53 (AWS), Azure DNS, Cloud DNS (GCP)
+- **VPN/VPC**: VPC (AWS), Virtual Network (Azure), VPC (GCP)
+
+### Arquitecturas Cloud
+
+#### **Serverless Architecture**
+
+```yaml
+# Ejemplo: AWS SAM Template
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs18.x
+      Events:
+        ApiEvent:
+          Type: Api
+          Properties:
+            Path: /users
+            Method: get
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref UsersTable
+  
+  UsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: userId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: userId
+          KeyType: HASH
+```
+
+#### **Multi-Region Deployment**
+
+| **Aspecto** | **Estrategia** | **Beneficios** |
+|---|---|---|
+| **Latencia** | Edge locations, CDN | Mejor performance global |
+| **Disponibilidad** | Multi-region failover | Alta disponibilidad 99.99% |
+| **Compliance** | Data residency | Cumplimiento regulatorio |
+| **Disaster Recovery** | Cross-region replication | Continuidad del negocio |
+
+### Herramientas y Servicios
+
+- **Infrastructure as Code**  
+  Terraform para multi-cloud, CloudFormation (AWS), ARM Templates (Azure), Deployment Manager (GCP).  
+  → [Terraform Cloud Providers](https://registry.terraform.io/browse/providers)
+
+- **Monitoring & Logging**  
+  CloudWatch (AWS), Azure Monitor, Cloud Monitoring (GCP), Datadog, New Relic.  
+  → [CloudWatch](https://docs.aws.amazon.com/cloudwatch/) | [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/)
+
+- **CI/CD Integration**  
+  CodePipeline (AWS), Azure DevOps, Cloud Build (GCP), GitHub Actions, GitLab CI.  
+  → [AWS CodePipeline](https://docs.aws.amazon.com/codepipeline/)
+
+- **Security & Identity**  
+  IAM (AWS), Azure AD, Cloud IAM (GCP), secrets management, encryption at rest/transit.  
+  → [AWS IAM](https://docs.aws.amazon.com/iam/) | [Azure AD](https://docs.microsoft.com/azure/active-directory/)
+
+### Buenas Prácticas y Aplicaciones
+
+- **Cost Optimization**: Reserved instances, spot instances, auto-scaling, resource tagging
+- **Security**: Principle of least privilege, encryption, network segmentation, security groups
+- **High Availability**: Multi-AZ deployment, load balancing, health checks, auto-recovery
+- **Disaster Recovery**: Backup strategies, RTO/RPO planning, cross-region replication
+- **Monitoring**: CloudWatch alarms, custom metrics, distributed tracing, log aggregation
+
+### Comparativa de Proveedores
+
+| **Servicio** | **AWS** | **Azure** | **GCP** |
+|---|---|---|---|
+| **Compute** | EC2, Lambda | VMs, Functions | Compute Engine, Cloud Functions |
+| **Storage** | S3 | Blob Storage | Cloud Storage |
+| **Database** | RDS, DynamoDB | SQL Database, Cosmos DB | Cloud SQL, Firestore |
+| **Kubernetes** | EKS | AKS | GKE |
+| **Serverless** | Lambda | Azure Functions | Cloud Functions |
+| **ML/AI** | SageMaker | Azure ML | Vertex AI |
+
+### Recursos Recomendados
+
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [Azure Architecture Center](https://docs.microsoft.com/azure/architecture/)
+- [GCP Architecture Framework](https://cloud.google.com/architecture/framework)
+- [Cloud Native Computing Foundation](https://www.cncf.io/)
+- [A Cloud Guru - Cloud Training](https://acloudguru.com/)
+
+### Integración con Otros Temas
+
+- **Contenedores**: Managed Kubernetes (EKS, AKS, GKE), container registries, serverless containers
+- **DevOps**: Cloud-native CI/CD, infrastructure automation, monitoring integration
+- **Bases de Datos**: Managed database services, backup automation, global distribution
+- **APIs**: API gateways, serverless APIs, rate limiting, authentication
+
+---
+
+## 7 Contenedores y Orquestación
+
+Tecnologías de contenedorización y orquestación para desplegar aplicaciones de manera consistente, escalable y portable en cualquier entorno.
+
+### 🔍 Conceptos Fundamentales
+
+- **Docker: Contenedorización**  
+  Images, containers, Dockerfile, Docker Compose, volumes, networks, multi-stage builds.  
+  → [Docker Documentation](https://docs.docker.com/) | [Docker Hub](https://hub.docker.com/)
+
+- **Kubernetes: Orquestación**  
+  Pods, deployments, services, ingress, ConfigMaps, secrets, scaling, self-healing.  
+  → [Kubernetes Documentation](https://kubernetes.io/docs/) | [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+
+- **Container Registries**  
+  Docker Hub, Amazon ECR, Azure Container Registry, Google Container Registry, GitHub Container Registry.  
+  → [Docker Hub](https://hub.docker.com/) | [Amazon ECR](https://aws.amazon.com/ecr/)
+
+### Docker Fundamentals
+
+#### **Dockerfile Best Practices**
+
+```dockerfile
+# Multi-stage build para optimización
+FROM node:18-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+RUN npm run build
+
+# Production image
+FROM node:18-alpine
+WORKDIR /app
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+EXPOSE 3000
+USER node
+CMD ["node", "dist/index.js"]
+```
+
+#### **Docker Compose para Desarrollo**
+
+```yaml
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://postgres:password@db:5432/myapp
+    depends_on:
+      - db
+      - redis
+  
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: myapp
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:
+```
+
+### Kubernetes Fundamentals
+
+#### **Deployment Configuration**
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app
+  labels:
+    app: web-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: web-app
+        image: myregistry/web-app:v1.0.0
+        ports:
+        - containerPort: 3000
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: db-secret
+              key: url
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "200m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-app-service
+spec:
+  selector:
+    app: web-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
+  type: LoadBalancer
+```
+
+#### **ConfigMaps y Secrets**
+
+```yaml
+# ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_ENV: production
+  LOG_LEVEL: info
+  API_URL: https://api.example.com
+---
+# Secret
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secret
+type: Opaque
+stringData:
+  url: postgresql://user:password@db-host:5432/mydb
+  username: dbuser
+  password: securepassword
+```
+
+### Herramientas y Ecosistema
+
+#### **Kubernetes Tools**
+- **Helm**: Package manager para Kubernetes, charts reutilizables, templating
+- **kubectl**: CLI para gestión de clusters, debugging, logs
+- **k9s**: Terminal UI para gestión interactiva de Kubernetes
+- **Lens**: Desktop IDE para Kubernetes clusters
+
+#### **Service Mesh**
+- **Istio**: Traffic management, security, observability
+- **Linkerd**: Lightweight service mesh, simple y rápido
+- **Consul**: Service discovery, configuration, segmentation
+
+#### **Monitoring & Logging**
+- **Prometheus**: Metrics collection, alerting
+- **Grafana**: Visualization, dashboards
+- **ELK Stack**: Elasticsearch, Logstash, Kibana para logs
+- **Jaeger**: Distributed tracing
+
+### Patrones y Estrategias
+
+#### **Deployment Strategies**
+
+| **Estrategia** | **Descripción** | **Uso** |
+|---|---|---|
+| **Rolling Update** | Actualización gradual de pods | Default en Kubernetes |
+| **Blue-Green** | Dos ambientes, switch instantáneo | Zero downtime crítico |
+| **Canary** | Despliegue gradual a subset de usuarios | Testing en producción |
+| **A/B Testing** | Múltiples versiones simultáneas | Feature testing |
+
+#### **Scaling Strategies**
+
+```yaml
+# Horizontal Pod Autoscaler
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: web-app-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: web-app
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+```
+
+### Buenas Prácticas y Aplicaciones
+
+- **Image Optimization**: Multi-stage builds, minimal base images (Alpine), layer caching
+- **Security**: Non-root users, image scanning, secrets management, network policies
+- **Resource Management**: Requests/limits, resource quotas, namespace isolation
+- **High Availability**: Multiple replicas, pod disruption budgets, anti-affinity rules
+- **Monitoring**: Health checks, metrics collection, centralized logging, distributed tracing
+- **CI/CD Integration**: Automated builds, image tagging, rolling deployments
+
+### Managed Kubernetes Services
+
+| **Servicio** | **Proveedor** | **Características** |
+|---|---|---|
+| **EKS** | AWS | Integración con AWS services, Fargate support |
+| **AKS** | Azure | Azure AD integration, virtual nodes |
+| **GKE** | Google Cloud | Autopilot mode, best Kubernetes experience |
+| **DigitalOcean** | DigitalOcean | Simple, económico, managed |
+| **Linode** | Akamai | Cost-effective, simple setup |
+
+### Recursos Recomendados
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Kubernetes Patterns Book](https://www.oreilly.com/library/view/kubernetes-patterns/9781492050278/)
+- [Docker Deep Dive](https://www.oreilly.com/library/view/docker-deep-dive/9781800565135/)
+- [CNCF Landscape](https://landscape.cncf.io/)
+- [Helm Documentation](https://helm.sh/docs/)
+
+### Integración con Otros Temas
+
+- **DevOps**: CI/CD pipelines, GitOps workflows, automated deployments
+- **Servicios en la Nube**: Managed Kubernetes, container registries, cloud-native services
+- **Bases de Datos**: StatefulSets, persistent volumes, database operators
+- **Microservices**: Service discovery, load balancing, API gateways
+
+---
+
 ## 8 Integración Full-Stack
 
 Arquitectura cohesiva que une frontend, backend y bases de datos en un ecosistema completo y escalable.
@@ -760,29 +1177,47 @@ Automatización, versionado y despliegue continuo para entregar software de cali
 
 ---
 
-## 10 Testing con Herramientas Modernas
+## 10 Testing y Calidad de Código
 
-Framework completo de testing automatizado con templates, herramientas CI/CD y buenas prácticas de seguridad para desarrollo moderno.
+Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelencia en el desarrollo de software.
 
 ### 🔍 Conceptos Fundamentales
 
-- **Testing Framework Strategy**  
-  Jest, Cypress, Playwright, Vitest. Configuración multiplataforma y integración con IDEs.  
-  → [Jest Documentation](https://jestjs.io/docs/getting-started) | [Cypress Guide](https://docs.cypress.io/guides/overview/why-cypress)
+- **Testing Pyramid**  
+  Unit tests, integration tests, E2E tests, testing strategies, test-driven development (TDD).  
+  → [Testing Pyramid Guide](https://martinfowler.com/articles/practical-test-pyramid.html)
+
+- **Frameworks de Testing**  
+  Jest (JavaScript), pytest (Python), Testing Library, Cypress, Playwright, Vitest.  
+  → [Jest Documentation](https://jestjs.io/docs/getting-started) | [pytest](https://docs.pytest.org/) | [Cypress Guide](https://docs.cypress.io/guides/overview/why-cypress)
+
+- **Code Quality Metrics**  
+  Code coverage, cyclomatic complexity, maintainability index, technical debt.  
+  → [Code Quality Metrics](https://blog.codacy.com/what-is-code-quality-and-how-to-measure-it)
 
 - **CI/CD Testing Integration**  
   GitHub Actions workflows, parallel testing, test reporting y artifact management.  
   → [GitHub Actions Testing](https://docs.github.com/actions/automating-builds-and-tests) | [GitHub Codespaces](https://docs.github.com/codespaces)
 
+### Herramientas y Frameworks
+
+- **Linting y Formateo**  
+  ESLint, Prettier, Black (Python), automated code formatting, pre-commit hooks.  
+  → [ESLint](https://eslint.org/docs/latest/) | [Prettier](https://prettier.io/docs/)
+
+- **Testing Automation**  
+  GitHub Actions testing, automated test reporting, parallel test execution.  
+  → [GitHub Actions Testing](https://docs.github.com/actions/automating-builds-and-tests)
+
+- **Quality Gates**  
+  SonarQube, CodeClimate, quality metrics integration en CI/CD.  
+  → [SonarQube](https://docs.sonarqube.org/) | [CodeClimate](https://docs.codeclimate.com/)
+
 - **Mocking y Test Doubles**  
   Mock servers, API stubbing, service virtualization, database testing strategies.  
   → [Mock Service Worker](https://mswjs.io/) | [Testcontainers](https://www.testcontainers.org/)
 
-- **Security Testing**  
-  Vulnerability scanning, secrets management in tests, secure test environments.  
-  → [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-
-### Templates y Herramientas
+### Templates y Ejemplos
 
 #### **Frontend Testing**
 
@@ -842,67 +1277,14 @@ jobs:
 | **Postman/Newman** | Collection runner, environment variables | API testing, documentation | Backend |
 | **Testcontainers** | Real database testing, service isolation | Integration tests, microservices | Backend |
 
-### Buenas Prácticas de Seguridad
-
-- **Secrets Management**: Uso de GitHub Secrets, variables de entorno seguras
-- **Test Data**: Datos sintéticos, anonimización, cleanup automático
-- **Environment Isolation**: Contenedores de testing, network policies
-- **Dependency Scanning**: Audit de dependencias de testing, updates automatizados
-
-### Recursos y Documentación
-
-- [Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-- [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app)
-- [Jest Documentation](https://jestjs.io/docs/getting-started)
-- [GitHub Actions Examples](https://github.com/actions/example-services)
-
-### Integración con Otros Temas
-
-- **DevOps**: Automated testing pipelines, deployment gates, quality metrics
-- **Frontend**: Component testing, visual regression, accessibility testing
-- **Backend**: API contract testing, database testing, performance testing
-- **Servicios en la Nube**: Cloud testing environments, managed test services
-
----
-
-## 11 Pruebas y Calidad de Código
-
-Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelencia en el desarrollo de software.
-
-### 🔍 Conceptos Fundamentales
-
-- **Testing Pyramid**  
-  Unit tests, integration tests, E2E tests, testing strategies, test-driven development (TDD).  
-  → [Testing Pyramid Guide](https://martinfowler.com/articles/practical-test-pyramid.html)
-
-- **Frameworks de Testing**  
-  Jest (JavaScript), pytest (Python), Testing Library, Cypress, Playwright.  
-  → [Jest Documentation](https://jestjs.io/docs/getting-started) | [pytest](https://docs.pytest.org/)
-
-- **Code Quality Metrics**  
-  Code coverage, cyclomatic complexity, maintainability index, technical debt.  
-  → [Code Quality Metrics](https://blog.codacy.com/what-is-code-quality-and-how-to-measure-it)
-
-### Herramientas y Frameworks
-
-- **Linting y Formateo**  
-  ESLint, Prettier, Black (Python), automated code formatting, pre-commit hooks.  
-  → [ESLint](https://eslint.org/docs/latest/) | [Prettier](https://prettier.io/docs/)
-
-- **Testing Automation**  
-  GitHub Actions testing, automated test reporting, parallel test execution.  
-  → [GitHub Actions Testing](https://docs.github.com/actions/automating-builds-and-tests)
-
-- **Quality Gates**  
-  SonarQube, CodeClimate, quality metrics integration en CI/CD.  
-  → [SonarQube](https://docs.sonarqube.org/) | [CodeClimate](https://docs.codeclimate.com/)
-
 ### Buenas Prácticas y Aplicaciones
 
 - **Test Strategy**: Arrange-Act-Assert pattern, mocking strategies, test data management
 - **Code Reviews**: Pull request guidelines, review checklists, automated checks
 - **Continuous Testing**: Shift-left testing, automated regression testing, performance testing
 - **Quality Culture**: Code ownership, pair programming, refactoring practices
+- **Security Testing**: Vulnerability scanning, secrets management in tests, secure test environments
+- **Test Data**: Datos sintéticos, anonimización, cleanup automático
 
 ### Recursos Recomendados
 
@@ -910,6 +1292,9 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
 - [Test-Driven Development by Kent Beck](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 - [Effective Software Testing](https://www.manning.com/books/effective-software-testing)
 - [Testing JavaScript Applications](https://www.manning.com/books/testing-javascript-applications)
+- [Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app)
+- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 
 ### Integración con Otros Temas
 
@@ -920,7 +1305,7 @@ Estrategias sistemáticas para garantizar fiabilidad, mantenibilidad y excelenci
 
 ---
 
-## 12 Temas Avanzados: Web3 y Smart Contracts
+## 11 Temas Avanzados: Web3 y Smart Contracts
 
 Exploración de la tecnología blockchain, contratos inteligentes y el ecosistema descentralizado para el futuro de las aplicaciones web.
 
@@ -975,7 +1360,7 @@ Exploración de la tecnología blockchain, contratos inteligentes y el ecosistem
 
 ---
 
-## 13 Herramientas para Desarrollar
+## 12 Herramientas para Desarrollar
 
 Ecosistema completo de herramientas modernas para optimizar productividad, colaboración y entrega de software de calidad.
 
